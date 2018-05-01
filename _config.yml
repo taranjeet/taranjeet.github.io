@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Taranjeet Singh
+bio: Full Stack Developer, Entrepreneur
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about my experience
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,8 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: https://taranjeet.github.io/
 
 permalink: /:title/
 
@@ -34,23 +33,17 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
+# facebook: myfacebook
+twitter: taranjeet7114
+linkedin: taranjeet7114
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+github: taranjeet
+stackoverflow: 2534102/taranjeet
 # quora: userquora
 # reddit: username
-medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: myemail@gmail.com
+medium: taranjeet
+email: taranjeet7114@gmail.com
 
 authors:
     johndoe:
@@ -72,8 +65,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
