@@ -2,7 +2,9 @@
 layout: post
 title: Experiences&#58; Organizing an Internal Hackathon
 date: 2017-08-06 22:00
-tags: hackathon
+tag:
+- hackathon
+category: blog
 ---
 
 We recently organized one an internal hackathon namely [Rockeathon][rockeathon] at [Gradeup][gradeup]. It was the first internal hackathon and everyone enjoyed a lot.

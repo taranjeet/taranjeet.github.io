@@ -2,7 +2,9 @@
 layout: post
 title: Elasticsearch Analyzers
 date: 2017-05-09 23:00
-tags: elasticsearch
+tag:
+- elasticsearch
+category: blog
 ---
 
 # Es Ananlyzers

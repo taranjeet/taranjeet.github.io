@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Integrating coveralls with travis in a python project
-date:   2016-06-15 20:00
-tags: python coveralls travis
+date: 2016-06-15 20:00
+tag:
+- python
+- coveralls
+- travis
+category: blog
 ---
 
 This post is about setting up coveralls and travis in a Python project.
@@ -45,7 +49,7 @@ Now I wanted to integrate [coveralls.io](https://coveralls.io) in greb. The inte
   * Update `python -m test.test_greb` to  `coverage run --source=greb -m test.test_greb` in __script__
   * Add a new section namely __after_script__ and add `coveralls` in it.
 
-  coverage run can be considered as python executable, hence passing `-m test.test_greb`. It generates 
+  coverage run can be considered as python executable, hence passing `-m test.test_greb`. It generates
   a `.coverage` file which gets pushed to coveralls.io, where it is presented in a nicely formatted way.
 
 The updated `.travis.yml` will look something like

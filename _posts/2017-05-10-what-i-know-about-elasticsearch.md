@@ -2,7 +2,9 @@
 layout: post
 title: What I know about ElasticSearch
 date: 2017-05-10 22:00
-tags: elasticsearch
+tag:
+- elasticsearch
+category: blog
 ---
 
 ### What is ES ?

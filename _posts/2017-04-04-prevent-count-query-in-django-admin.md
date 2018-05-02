@@ -2,7 +2,9 @@
 layout: post
 title: Prevent Count Query in Django Admin
 date: 2017-04-04 13:00
-tags: django
+tag:
+- django
+category: blog
 ---
 
 Whenever changelist view of any model is opened in Django Admin, it performs a count query on the table. This count query can be a bottleneck on the database if number of rows is large(specially in MYSQL, Innodb storage engine). This can be prevented and instead of the count query, a explain query can be fired.

@@ -2,7 +2,9 @@
 layout: post
 title: What I know about Oauth 2.0
 date: 2017-04-04 11:00
-tags: oauth
+tag:
+- oauth
+category: blog
 ---
 
 ## What is Oauth ?
@@ -38,18 +40,18 @@ Continuing with the above example, G expresses its intent with T to register as 
 
 Below are the steps when a user comes and generates meme which is to be posted on Twitter.
 
-* Now user namely D visits G and generates a meme. 
+* Now user namely D visits G and generates a meme.
 
-* D wants his generated meme to be posted on T. So he asks G if its possible to do so. 
+* D wants his generated meme to be posted on T. So he asks G if its possible to do so.
 
-* G responds positively and shows D a button which says `Login with Twitter`. D clicks on that button and then is presented with a official Twitter page, where in D enters his credential (username and password). 
+* G responds positively and shows D a button which says `Login with Twitter`. D clicks on that button and then is presented with a official Twitter page, where in D enters his credential (username and password).
 
-* These credentials are then sent to Twitter along with the CLIENT_ID of G, so that T can identify "Ok user D has come and is in need of using G." 
+* These credentials are then sent to Twitter along with the CLIENT_ID of G, so that T can identify "Ok user D has come and is in need of using G."
 
-* T then receives username and password of D and authenticates D. After the authentication is successful, it responds back to the client G with the authorization code. Till this T has verified that D is genuine and this has been acknowledged to G by sharing a authorization code with him. 
+* T then receives username and password of D and authenticates D. After the authentication is successful, it responds back to the client G with the authorization code. Till this T has verified that D is genuine and this has been acknowledged to G by sharing a authorization code with him.
 
 * Now its time to verify that G is genuine or not. So to do this now a server to server call will be done by G where in G will be sharing the authorization grant received along with its CLIENT_ID and CLIENT_SECRET.
 
-* T now receives a new request where in the client G verifies itself. On successfully verifying the client G by T, it creates a new access token which can be used by client G on behalf of user D. This access token is then shared with G. 
+* T now receives a new request where in the client G verifies itself. On successfully verifying the client G by T, it creates a new access token which can be used by client G on behalf of user D. This access token is then shared with G.
 
 * Now for subsequent requests, G can use this access token whenever it needs to talk to T, on behalf of user D to do certain actions.

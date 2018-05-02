@@ -2,7 +2,11 @@
 layout: post
 title: EvalAI&#58; Processing submissions using RabbitMQ
 date: 2017-07-23 13:30
-tags: open-source, cloudcv, gsoc, rabbitmq
+tag:
+- opensource,
+- gsoc,
+- rabbitmq
+category: blog
 ---
 
 [EvalAI](https://github.com/cloud-cv/evalai) is a platform which helps AI researchers, students and data scientists to collaborate and participate in various AI challenges. The platform hosts various challenges, corresponding to which participants make their submission.

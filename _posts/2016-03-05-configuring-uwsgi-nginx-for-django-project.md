@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Configuring uwsgi, nginx for django project
-date:   2016-03-05 18:00
-tags: django nginx uwsgi
+date: 2016-03-05 18:00
+tag:
+- django
+- nginx
+- uwsgi
+category: blog
+author: taranjeet
 ---
 
 This post is about setting up Nginx and uwsgi for a django project.
