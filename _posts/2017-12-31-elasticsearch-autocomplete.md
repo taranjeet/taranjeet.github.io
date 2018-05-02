@@ -8,9 +8,6 @@ category: blog
 author: taranjeet
 ---
 
-
-# Elasticsearch: Building AutoComplete functionality
-
 If you are interested in more such blogs about Elasticsearch, join Elasticsearch Whatsapp Group by following this [link](https://chat.whatsapp.com/BBN3bFkXMjN27AIQ918npK)
 
 ## **What is Autocomplete ?**
