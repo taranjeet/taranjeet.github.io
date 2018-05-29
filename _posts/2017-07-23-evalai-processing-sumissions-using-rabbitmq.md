@@ -25,11 +25,11 @@ This bottleneck can be easily handled if the submission messages are processed i
 
 ## RabbitMQ: The Saviour
 
-To process messages in an asynchronous way, we at [EvalAI](https://github.com/cloud-cv/evalai) are using RabbitMQ, a Queue based system.
+To process messages in an asynchronous way, we at [EvalAI](https://github.com/cloud-cv/evalai) are using RabbitMQ, a Queue-based system.
 
 Whenever a submission is made, the response is sent immediately after saving a submission instance and a message is queued in an asynchronous way. This message is then picked up by the worker and processed further.
 
-Situations where in the number of submission increases and the workers are already processing at their maximum capacity can be handled easily as every message is eventually queued up. The message persists in the queue until it is not picked up and acknowledged by the worker. This way, we can easily handle and process a large number of submission even at peak times.
+Situations wherein the number of submission increases and the workers are already processing at their maximum capacity can be handled easily as every message is eventually queued up. The message persists in the queue until it is not picked up and acknowledged by the worker. This way, we can easily handle and process a large number of submission even at peak times.
 
 For processing messages, a python worker listens on the queue. The worker picks up the message from the queue, processes the submission and saves its status in the database.
 
