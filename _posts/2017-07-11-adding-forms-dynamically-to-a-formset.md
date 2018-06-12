@@ -19,23 +19,7 @@ Formset stores data like total number of forms, the initial number of forms and 
 
 Let's consider an example of a library wherein form is required to fill details of **Book**. The `Book` model looks like
 
-```
-# models.py
-
-from django.db import models
-
-class Book(models.Model):
-
-    name = models.CharField(max_length=255)
-    isbn_number = models.CharField(max_length=13)
-
-    class Meta:
-        db_table = 'book'
-
-    def __str__(self):
-        return self.name
-
-```
+{% gist dbf1010d5c952532d48290d75dc199ad %}
 
 #### Use case 1: Create formset for a normal form
 
@@ -45,102 +29,19 @@ Let's create a view wherein a user can add and store multiple books at once. For
 
 The form definition will look like this
 
-```
-# forms.py
-from django import forms
-
-
-class BookForm(forms.Form):
-    name = forms.CharField(
-        label='Book Name',
-        widget=forms.TextInput(attrs={
-            'class': 'form-control',
-            'placeholder': 'Enter Book Name here'
-        })
-    )
-```
+{% gist dca781f2726abaa15a59a079b6e0744c %}
 
 Let's create a formset for this form using `formset_factory`. The updated `forms.py` will look like this
 
-```
-# forms.py :: part 1
-from django import forms
-from django.forms import formset_factory
-
-
-class BookForm(forms.Form):
-    name = forms.CharField(
-        label='Book Name',
-        widget=forms.TextInput(attrs={
-            'class': 'form-control',
-            'placeholder': 'Enter Book Name here'
-        })
-    )
-
-BookFormset = formset_factory(BookForm, extra=1)
-```
+{% gist 5b2a5e12a1ba439d106c81d5db035613 %}
 
 Now, let's use this form in a view and create an interface where a user can add or store multiple books
 
-```
-# views.py :: part 2
-from django.shortcuts import render, redirect
-
-from .forms import BookFormset
-from .models import Book
-
-
-def create_book_normal(request):
-    template_name = 'store/create_normal.html'
-    heading_message = 'Formset Demo'
-    if request.method == 'GET':
-        formset = BookFormset(request.GET or None)
-    elif request.method == 'POST':
-        formset = BookFormset(request.POST)
-        if formset.is_valid():
-            for form in formset:
-                # extract name from each form and save
-                name = form.cleaned_data.get('name')
-                # save book instance
-                if name:
-                    Book(name=name).save()
-            # once all books are saved, redirect to book list view
-            return redirect('book_list')
-    return render(request, template_name, {
-        'formset': formset,
-        'heading': heading_message,
-    })
-```
+{% gist f0f6f3b2b365ea3f94195306a0de1214 %}
 
 The template code to render and iterate over this formset will look like
 
-```
-# create_normal.html :: part 3
-<form class="form-horizontal" method="POST" action="">
-{{ "{% csrf_token " }}%}
-{{ "{{ formset.management_form "}}}}
-{{ "{% for form in formset " }}%}
-<div class="row form-row spacer">
-    <div class="col-2">
-        <label>{{ "{{form.name.label"}}}}</label>
-    </div>
-    <div class="col-4">
-        <div class="input-group">
-            {{ "{{form.name"}}}}
-            <div class="input-group-append">
-                <button class="btn btn-success add-form-row">+</button>
-            </div>
-        </div>
-    </div>
-</div>
-{{ "{% endfor " }} %}
-<div class="row spacer">
-    <div class="col-4 offset-2">
-        <button type="submit" class="btn btn-block btn-primary">Create</button>
-    </div>
-</div>
-</form>
-```
+{% gist aacdbb4dbcae29396e7692e1c6008b3c %}
 
 This code will simply render the form. By default, a single element will be present, since we have passed `extra` as 1 when creating `BookFormset`.
 
@@ -148,66 +49,7 @@ Now we need to add some javascript code, to give the functionality of adding for
 
 This code will look like
 
-```
-# create_normal.html :: part 4
-<script type='text/javascript'>
-
-function updateElementIndex(el, prefix, ndx) {
-    var id_regex = new RegExp('(' + prefix + '-\\d+)');
-    var replacement = prefix + '-' + ndx;
-    if ($(el).attr("for")) $(el).attr("for", $(el).attr("for").replace(id_regex, replacement));
-    if (el.id) el.id = el.id.replace(id_regex, replacement);
-    if (el.name) el.name = el.name.replace(id_regex, replacement);
-}
-
-function cloneMore(selector, prefix) {
-    var newElement = $(selector).clone(true);
-    var total = $('#id_' + prefix + '-TOTAL_FORMS').val();
-    newElement.find(':input').each(function() {
-        var name = $(this).attr('name').replace('-' + (total-1) + '-', '-' + total + '-');
-        var id = 'id_' + name;
-        $(this).attr({'name': name, 'id': id}).val('').removeAttr('checked');
-    });
-    total++;
-    $('#id_' + prefix + '-TOTAL_FORMS').val(total);
-    $(selector).after(newElement);
-    var conditionRow = $('.form-row:not(:last)');
-    conditionRow.find('.btn.add-form-row')
-    .removeClass('btn-success').addClass('btn-danger')
-    .removeClass('add-form-row').addClass('remove-form-row')
-    .html('<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>');
-    return false;
-}
-
-function deleteForm(prefix, btn) {
-    var total = parseInt($('#id_' + prefix + '-TOTAL_FORMS').val());
-    if (total > 1){
-        btn.closest('.form-row').remove();
-        var forms = $('.form-row');
-        $('#id_' + prefix + '-TOTAL_FORMS').val(forms.length);
-        for (var i=0, formCount=forms.length; i<formCount; i++) {
-            $(forms.get(i)).find(':input').each(function() {
-                updateElementIndex(this, prefix, i);
-            });
-        }
-    }
-    return false;
-}
-
-$(document).on('click', '.add-form-row', function(e){
-    e.preventDefault();
-    cloneMore('.form-row:last', 'form');
-    return false;
-});
-
-$(document).on('click', '.remove-form-row', function(e){
-    e.preventDefault();
-    deleteForm('form', $(this));
-    return false;
-});
-
-</script>
-```
+{% gist 71b7826b60f42e5d239cf3b3abbf292f %}
 
 When this code is added in `create_normal.html`, the functionality becomes complete wherein a user can add and remove form elements on the fly.
 
@@ -215,54 +57,11 @@ When this code is added in `create_normal.html`, the functionality becomes compl
 
 Lets us consider the same problem, where we want to add multiple books, but this time using a `ModelForm`, rather than using a simple form. Since we are using `ModelForm`, a `ModelFormset` will be created.
 
-```
-# forms.py :: part 1
-
-from django.forms import modelformset_factory
-
-BookModelFormset = modelformset_factory(
-    Book,
-    fields=('name', ),
-    extra=1,
-    widgets={'name': forms.TextInput(attrs={
-            'class': 'form-control',
-            'placeholder': 'Enter Book Name here'
-        })
-    }
-)
-```
+{% gist 20dbf7c56c250ca0acc54f576dc7eee6 %}
 
 The code for the views will be slightly changed. Here rather than creating a `Book` model instance and then saving it, `form` will be used, since `form` is an instance of `ModelForm`.
 
-```
-# views.py :: part 2
-
-from django.shortcuts import render, redirect
-
-from .forms import BookModelFormset
-
-
-def create_book_model_form(request):
-    template_name = 'store/create_normal.html'
-    heading_message = 'Model Formset Demo'
-    if request.method == 'GET':
-        # we don't want to display the already saved model instances
-        formset = BookModelFormset(queryset=Book.objects.none())
-    elif request.method == 'POST':
-        formset = BookModelFormset(request.POST)
-        if formset.is_valid():
-            for form in formset:
-                # only save if name is present
-                if form.cleaned_data.get('name'):
-                    form.save()
-            return redirect('book_list')
-
-    return render(request, template_name, {
-        'formset': formset,
-        'heading': heading_message,
-    })
-
-```
+{% gist 879b920e56514af67348da503af2b33c %}
 
 The template code(part 3) and javascript code(part 4) remains the same.
 
@@ -272,114 +71,15 @@ Let's consider a more complex case wherein we need to save form along with a for
 
 ![normal-dynamic-formset](/public/img/book_with_author.png "Form with Formsets")
 
-```
-# forms.py :: part 1
-
-from django import forms
-from django.forms import modelformset_factory
-
-from .models import Book, Author
-
-class BookModelForm(forms.ModelForm):
-
-    class Meta:
-        model = Book
-        fields = ('name', )
-        labels = {
-            'name': 'Book Name'
-        }
-        widgets = {
-            'name': forms.TextInput(attrs={
-                'class': 'form-control',
-                'placeholder': 'Enter Book Name here'
-                }
-            )
-        }
-
-AuthorFormset = modelformset_factory(
-    Author,
-    fields=('name', ),
-    extra=1,
-    widgets={
-        'name': forms.TextInput(
-            attrs={
-                'class': 'form-control',
-                'placeholder': 'Enter Author Name here'
-            }
-        )
-    }
-)
-
-```
+{% gist c503278293ea77f77fb2e0f88f8d9fc7 %}
 
 The corresponding code for the views will look like
 
-```
-# views.py :: part 2
-
-def create_book_with_authors(request):
-    template_name = 'store/create_with_author.html'
-    if request.method == 'GET':
-        bookform = BookModelForm(request.GET or None)
-        formset = AuthorFormset(queryset=Author.objects.none())
-    elif request.method == 'POST':
-        bookform = BookModelForm(request.POST)
-        formset = AuthorFormset(request.POST)
-        if bookform.is_valid() and formset.is_valid():
-            # first save this book, as its reference will be used in `Author`
-            book = bookform.save()
-            for form in formset:
-                # so that `book` instance can be attached.
-                author = form.save(commit=False)
-                author.book = book
-                author.save()
-            return redirect('store:book_list')
-    return render(request, template_name, {
-        'bookform': bookform,
-        'formset': formset,
-    })
-```
+{% gist bf3a42ee8bc682d023fbe4c6efd9c376 %}
 
 The template code to iterate and render both the form and formset will look like
 
-```
-# create_with_author.html :: part 3
-
-<form class="form-horizontal" method="POST" action="">
-    {{ "{% csrf_token " }}%}
-<div class="row spacer">
-<div class="col-2">
-    <label>{{ "{{bookform.name.label"}}}}</label>
-</div>
-<div class="col-4">
-    <div class="input-group">
-        {{ "{{bookform.name"}}}}
-    </div>
-</div>
-</div>
-{{ "{{ formset.management_form "}}}}
-{{ "{% for form in formset " }}%}
-<div class="row form-row spacer">
-    <div class="col-2">
-        <label>{{ "{{form.name.label"}}}}</label>
-    </div>
-    <div class="col-4">
-        <div class="input-group">
-            {{ "{{form.name"}}}}
-            <div class="input-group-append">
-                <button class="btn btn-success add-form-row">+</button>
-            </div>
-        </div>
-    </div>
-</div>
-{{ "{% endfor " }}%}
-<div class="row spacer">
-    <div class="col-4 offset-2">
-        <button type="submit" class="btn btn-block btn-primary">Create</button>
-    </div>
-</div>
-</form>
-```
+{% gist 6f921607b8f514ef68edfa45e28b7e22 %}
 
 ### Conclusion
 
