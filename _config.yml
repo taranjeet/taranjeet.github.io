@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://taranjeet.github.io/
+url: https://taranjeet.github.io
 
 permalink: /:title/
 
