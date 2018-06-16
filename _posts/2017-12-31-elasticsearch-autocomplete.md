@@ -8,8 +8,6 @@ category: blog
 author: taranjeet
 ---
 
-If you are interested in more such blogs about Elasticsearch, join Elasticsearch Whatsapp Group by following this [link](https://chat.whatsapp.com/BBN3bFkXMjN27AIQ918npK)
-
 ## **What is Autocomplete ?**
 
 Let’s take a very common example. Whenever you go to google and start typing, a drop-down appears which lists the suggestions. Those suggestions are related to the query and help user in completing his query.
@@ -355,5 +353,3 @@ The above query returns the following results
 ## Conclusion
 
 Various approaches can be used to implement autocomplete functionality in ElasticSearch. Completion Suggester covers most of the cases which are required in implementing a fully functional and fast autocomplete.
-
-If you are interested in more such blogs about Elasticsearch, join **Elasticsearch Whatsapp Group** by following this [link](https://chat.whatsapp.com/BBN3bFkXMjN27AIQ918npK)

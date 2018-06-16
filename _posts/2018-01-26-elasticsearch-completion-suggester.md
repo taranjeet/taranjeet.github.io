@@ -9,8 +9,6 @@ author: taranjeet
 description: "Elasticsearch&#58; Using Completion Suggester to build AutoComplete"
 ---
 
-If you are interested in more such blogs about Elasticsearch, join Elasticsearch Whatsapp Group by following this [link](https://chat.whatsapp.com/BBN3bFkXMjN27AIQ918npK).
-
 In an earlier [post](/elasticsearch-autocomplete/), we discussed various approaches to implement Autocomplete functionality. We came to a conclusion that Completion Suggester covers most of the cases required in implementing a fully functional and fast autocomplete. This post explains in detail about what is Completion Suggester and how to use them practically.
 
 ## Completion Suggester
@@ -396,5 +394,3 @@ We get the following movies as result
 * [Completion Suggester Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters-completion.html)
 
 * [Context Suggester](https://www.elastic.co/guide/en/elasticsearch/reference/6.1/suggester-context.html)
-
-If you are interested in more such blogs about Elasticsearch, join **Elasticsearch Whatsapp Group** by following this [link](https://chat.whatsapp.com/BBN3bFkXMjN27AIQ918npK)
