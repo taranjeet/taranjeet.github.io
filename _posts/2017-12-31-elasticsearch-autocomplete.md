@@ -71,12 +71,7 @@ This approach is the ideal approach to implement autocomplete functionality, how
 
 * Matching always starts at the beginning of the text. So search for america in marvels movie dataset will not yield any result. One way to overcome is tokenizing the input text on space and keep all the phrases as canonical names. This way Captain America: Civil War will be stored as
 
-```
-Captain America: Civil War
-America: Civil War
-Civil War
-War
-```
+{% gist 960017acf0996d120afbf278c7df942d %}
 
 * Highlighting of the matched words are not supported.
 
@@ -132,73 +127,7 @@ Let’s implement above approaches in Elasticsearch. We will be using Marvels mo
 
 We will be creating an index `movies` with type `marvels`.
 
-```
-POST movies
-{
-  "settings": {
-    "index": {
-      "analysis": {
-        "filter": {},
-        "analyzer": {
-          "keyword_analyzer": {
-            "filter": [
-              "lowercase",
-              "asciifolding",
-              "trim"
-            ],
-            "char_filter": [],
-            "type": "custom",
-            "tokenizer": "keyword"
-          },
-          "edge_ngram_analyzer": {
-            "filter": [
-              "lowercase"
-            ],
-            "tokenizer": "edge_ngram_tokenizer"
-          },
-          "edge_ngram_search_analyzer": {
-            "tokenizer": "lowercase"
-          }
-        },
-        "tokenizer": {
-          "edge_ngram_tokenizer": {
-            "type": "edge_ngram",
-            "min_gram": 2,
-            "max_gram": 5,
-            "token_chars": [
-              "letter"
-            ]
-          }
-        }
-      }
-    }
-  },
-  "mappings": {
-    "marvels": {
-      "properties": {
-        "name": {
-          "type": "text",
-          "fields": {
-            "keywordstring": {
-              "type": "text",
-              "analyzer": "keyword_analyzer"
-            },
-            "edgengram": {
-              "type": "text",
-              "analyzer": "edge_ngram_analyzer",
-              "search_analyzer": "edge_ngram_search_analyzer"
-            },
-            "completion": {
-              "type": "completion"
-            }
-          },
-          "analyzer": "standard"
-        }
-      }
-    }
-  }
-}
-```
+{% gist aeffcf1525f6285c5449057b2092ccd6 %}
 
 If we see the mapping, we will observe that name is a nested field which contains several field, each analysed in a different way.
 
@@ -210,26 +139,13 @@ If we see the mapping, we will observe that name is a nested field which contain
 
 We will index all our movies by using
 
-```
-POST movies/marvels
-{
-  "name": "Iron Man"
-}
-```
+{% gist 68ff58a8e17048286d217043c7d7d24a %}
 
 Let’s start with Prefix Query approach and try finding movie beginning with `th`.
 
 Query will be
 
-```
-{
-  "query": {
-    "prefix": {
-      "name.keywordstring": "th"
-    }
-  }
-}
-```
+{% gist 0402e1ad9bae7e65c876ce9ecbdd900a %}
 
 This will result in the following movie
 
@@ -245,20 +161,15 @@ The result is fair, but some movies like *Captain America: The Winter Soldier*, 
 
 Lets try finding another movie beginning with `am`.
 
-```
-{
-  "query": {
-    "prefix": {
-      "name.keywordstring": "am"
-    }
-  }
-}
-```
+
+{% gist 0eae921adb5617f88465710d7deec71b %}
 
 Here we do not get any results, although *Captain America* satisfy this condition. This confirms the point that Prefix query cannot be used to match in the middle of the text.
 
 Lets run the same search `am` but with Edge Ngram Approach.
 
+
+{% gist 67d115e8b76095c78aee5ca94a3779f4 %}
 ```
 {
   "query": {
@@ -305,18 +216,8 @@ If we observe our phrase, only the first two suggestion makes sense. The reason 
 
 Let’s try using suggestion query for the same phrase `captain america the` . Suggestion query is written in a slightly different way.
 
-```
-{
-    "suggest": {
-        "movie-suggest" : {
-            "prefix" : "captain america the",
-            "completion" : {
-                "field" : "name.completion"
-            }
-        }
-    }
-}
-```
+
+{% gist ebc42072c89e62b59b384baeb95ff14c %}
 
 We get the following movies as result
 
@@ -328,21 +229,7 @@ Let’s try the same query, but this time with a typo `captain amrica the`.
 
 The above `movie-suggest` returns no result because no support for fuzziness is present. We can update the query to include support for fuzziness in the following way
 
-```
-{
-  "suggest": {
-    "movie-suggest-fuzzy": {
-      "prefix": "captain amerca the",
-      "completion": {
-        "field": "name.completion",
-        "fuzzy": {
-          "fuzziness": 1
-        }
-      }
-    }
-  }
-}
-```
+{% gist c7337379a810fda232162c8f320b4887 %}
 
 The above query returns the following results
 
