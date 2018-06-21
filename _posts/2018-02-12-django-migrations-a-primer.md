@@ -90,7 +90,7 @@ By running this command, all the unapplied migration are applied to the database
 
 In our case for `Book` model, both `0001_initial` and `0002_add_publisher` will be applied.
 
-Whenever any migration is applied, django records this in a table called `django_migrations`.
+Whenever any migration is applied, Django records this in a table called `django_migrations`.
 
 ### How to undo migrations
 
@@ -101,7 +101,7 @@ Undoing a migration can be done by using migrate command, but we need to pass ap
     python manage.py migrate <name_of_app> <rollback_migration_name>
 
 Let’s remove `publisher` field from our `Book` model. This can be done by undoing `0002_add_publisher` migration.
-Since we need to undoing this migration, we will pass `0001_initial` as an argument to migrate. The command will look like
+Since we need to undo this migration, we will pass `0001_initial` as an argument to migrate. The command will look like
 
     python manage.py mgirate library 0001_initial
 
@@ -124,7 +124,7 @@ Here zero tells migrate command to clear the migration for a particular app.
 
 ### How to list all migrations
 
-Django provides a builtin command called `showmigrations` to list and display all migrations. It can be run as
+Django provides a built-in command called `showmigrations` to list and display all migrations. It can be run as
 
     python manage.py showmigrations
 
@@ -143,7 +143,7 @@ Here `[X]` indicates that the migration has been applied and `[]` indicates that
 
 The basic process of creating and applying migration is the following.
 
-* First make changes to the model. This can be adding a new model or updating/removing any fields from the model.
+* First, make changes to the model. This can be adding a new model or updating/removing any fields from the model.
 
 * Create migrations by running `makemigrations`.
 
@@ -173,9 +173,9 @@ One important thing to note here is that this migration file needs to be added t
 
 ### Practical Use Cases
 
-* Migrations gives us the flexibility of propagating database related changes easily across a team. Migration created by a developer, can be added to VCS, which later can be applied by another dev, simply by running the `migrate` command.
+* Migrations give us the flexibility of propagating database related changes easily across a team. Migration created by a developer can be added to VCS, which later can be applied by another dev, simply by running the `migrate` command.
 
-* Another way of using migration can be to apply changes in the development environment and fake migrations on the production environment. This is especially helpful in a large organization, where database is managed specifically by Database Administrators.
+* Another way of using migration can be to apply changes in the development environment and fake migrations on the production environment. This is especially helpful in a large organization, where the database is managed specifically by Database Administrators.
 
 ### Advantages
 
