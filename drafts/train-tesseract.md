@@ -23,7 +23,7 @@ shapeclustering -F font_properties lang.fontname.exp0.tr lang.fontname.exp1.tr .
 
 mftraining -F font_properties lang.fontname.*.tr
 
-cntraining lang.fontname.exp1.tr
+cntraining lang.fontname.*.tr
 
 mv font_properties lang.font_properties;
 mv inttemp lang.inttemp;
