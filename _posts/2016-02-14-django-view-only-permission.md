@@ -14,16 +14,16 @@ permission which operates on per model. By default, Django comes with three
 types of permission namely add, change and delete.
 
 This post is about implementing **view** only permissions in Django which are
-actually missing. **View** only permission come in handy when only view (or read
-only) permission is required for a model.
+actually missing. **View** only permission come in handy when only view (or read-only)
+permission is required for a model.
 
 The part can be split into major sub-parts. Firstly adding permission in a
-generic way. Secondly linking the corresponding read only action with the
+generic way. Secondly linking the corresponding read-only action with the
 permission
 
 Let’s start with implementing permission. Permissions can be added for a model
 by using its **Meta** class. For example, to add permission to **Book** model,
-following code can be used
+the following code can be used
 
 
 ```
@@ -48,7 +48,7 @@ feature “[Signals](https://docs.djangoproject.com/en/1.11/topics/signals/)”.
 Signals are something like event emitters which happen whenever any event
 occurs. There are many signals, but right now we are only concerned with
 [post_migrate](https://docs.djangoproject.com/en/1.11/ref/signals/#post-migrate).
-As the name indicates, **post_migrate** runs **after** migration is run. Also,
+As the name indicates, **post_migrate** runs **after** the migration is run. Also,
 we can use **post_model** in a generic way, so that it applies to each and every
 model.
 
@@ -78,20 +78,20 @@ post_migrate.connect(add_view_only_permission)
 
 ```
 
-This code can be placed in any file, but it is mostly placed in file, which gets
+This code can be placed in any file, but it is mostly placed in the file, which gets
 loaded initially as signals to be cached also. There is a question on
 [stackoverflow](https://stackoverflow.com/questions/2719038/where-should-signal-handlers-live-in-a-django-project)
-regarding the placement of signals in a project. As of now I am placing it in
+regarding the placement of signals in a project. As of now, I am placing it in
 **<any_app>/models.py**.
 
 Summarizing, the above code will create a default **view only** permission for
-each and every model. **post_migrate** signal is emitted when ever migrations
+each and every model. **post_migrate** signal is emitted whenever migrations
 are run. One very important thing to note is that it only creates permission for
-a model in generic way, not a view only permission.
+a model in a generic way, not a view only permission.
 
-Now comes the second part, where in we will write our action corresponding to
-the above created permission. For this we will be using **ModelAdmin** class,
-since we are dealing with admin part.
+Now comes the second part, wherein we will write our action corresponding to
+the above created permission. For this, we will be using **ModelAdmin** class,
+since we are dealing with the admin part.
 
 There is a function called *get_readonly_fields, get_list_display* and
 *submit_row* which can be overridden and used to fit our use case. Code for
@@ -168,6 +168,6 @@ can simply infer that **can_view** negates the change effect of **can_change**
 to turn every field into a read-only field.
 
 The above code is one way of implementing view only permission in Django. I am
-sure there can be numerous other interesting way to implement it.
+sure there can be other interesting ways to implement it.
 
 
