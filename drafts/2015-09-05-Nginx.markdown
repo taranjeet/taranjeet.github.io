@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Nginx 101"
+date:   2015-09-05 18:05:27
+categories: nginx removing-apache reverse proxy
+---
+
+This post started out as a need to configure Nginx and remove Apache from my server installation.
+
+Before we begin learning what Nginx is, it will be great if we know what proxy, forward proxy and reverse proxy is. Proxy is exactly what most of us do in our college times. Remember __Yaar proxy laga diyo__. This sentence very well clears the picture in our mind. It means to __acting on behalf of__. Ok "fake krna". Now proxy in terms of web services means something fake between the client and the server. Either the client doesn't who is the server or the server doesn't know who is the client. It can be both ways and thus it leads us to two type of proxy: 
+
+* Forward Proxy : bole toh __server ko nai pata ki client kaun h__
+* Reverse Proxy : bole toh __client ko nai pata ki server kaun h__
+
+After reading this you must be very clear that what is the need of forward proxy. Yeah if you want to access those sites which are blocked by your administration or if the server has blacklisted you, then forward proxy is the solution to that. But Reverse Proxy???? 
+
+Reverse proxy means that now a proxy server is there between the client and the server like
+
+``` 
+Client  -------> Proxy Server -------> Server 1
+
+							  -------> Server 2	
+```
+
+One of the use of reverse proxy can be it helps in load balancing the request. It can follow round robin way of distributing requests. Another can be it becomes difficult to do a [DDOS](https://en.wikipedia.org/wiki/Denial-of-service_attack). One more can be the user only remembers a particular url and you can use proxy server to route the requests like blog.mysite.com, mysite.com/blog all to blog.mysite.com
+
+In case of forward proxy client knows about all the 3 machines involved whereas in case of reverse proxy the server knows about all the three machines.
+
+Now Nginx. Nginx is an opensource http server and a reverse proxy server. It was developed by Igor Sysoev and is a very lightweight server. Apache works on the thread model. Nginx on the other hand works on the asynchronous model. It uses a more scalable event-driven asynchronous architecture. 
+
+
+
