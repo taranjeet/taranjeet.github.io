@@ -15,7 +15,7 @@ Forms in HTML are a collection of input elements that allows us to perform dynam
 
 A [formset](https://docs.djangoproject.com/en/2.0/topics/forms/formsets/) is a collection of Django Forms. Each formset has a management form which is used to manage the collection of homogeneous forms contained in it.
 
-Formset stores data like total number of forms, the initial number of forms and maximum number of forms in a management form. So whenever we want to add a form dynamically on the frontend, we need to change the total number of forms so that “*Management form has been tampered error is not thrown*”. All the forms in a formset are numbered sequentially, so we need to do a little processing of these numbers to keep the whole structure of a form consistent.
+Formset stores data like the total number of forms, the initial number of forms and the maximum number of forms in a management form. So whenever we want to add a form dynamically on the frontend, we need to change the total number of forms so that “*Management form has been tampered error is not thrown*”. All the forms in a formset are numbered sequentially, so we need to do a little processing of these numbers to keep the whole structure of a form consistent.
 
 Let's consider an example of a library wherein form is required to fill details of **Book**. The `Book` model looks like
 
@@ -23,7 +23,7 @@ Let's consider an example of a library wherein form is required to fill details 
 
 #### Use case 1: Create formset for a normal form
 
-Let's create a view wherein a user can add and store multiple books at once. For this we will need a form, whose formset can be made. We will first start with a normal form and see how we can make formsets using normal form. We are using [Bootstrap](https://getbootstrap.com/) to power our styling.
+Let's create a view wherein a user can add and store multiple books at once. For this, we will need a form, whose formset can be made. We will first start with a normal form and see how we can make formsets using normal form. We are using [Bootstrap](https://getbootstrap.com/) to power our styling.
 
 ![normal-dynamic-formset](/public/img/book_formset.png "Dynamic Formsets")
 
@@ -83,6 +83,6 @@ The template code to iterate and render both the form and formset will look like
 
 ### Conclusion
 
-This post walked in detail of how can the formsets be implemented. Much of the help for above javascript code is taken from this [stackoverflow answer](https://stackoverflow.com/a/669982/2534102).
+This post walked in detail of how can the formsets be implemented. Much of the help for the above javascript code is taken from this [stackoverflow answer](https://stackoverflow.com/a/669982/2534102).
 
 The code for this can be found [here](https://github.com/taranjeet/django-library-app)
