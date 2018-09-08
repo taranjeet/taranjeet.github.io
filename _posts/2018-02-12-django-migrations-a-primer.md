@@ -29,26 +29,19 @@ Automatically generated migrations are used to apply changes to the database sch
 
 Let’s consider an example of a Library system and walk through the whole example of creating and applying migrations. Consider that our project is django_library and there is an app called library in it. We are right now focussing only on the Book model.
 
-```
-# library/models.py
-from django.db import models
-
-class Book(models.Model):
-    title = models.CharField(max_length=255)
-    isbn = models.CharField(max_length=13)
-```
+{% gist bb6985599297af297e51de4f90b74d43 %}
 
 ### How to create migrations
 
 To create the migration, Django provides a management command called makemigrations. It can be run as
 
-    python manage.py makemigrations <name_of_app>
+{% gist 993374c49036438d9ea28bf7c02a1218 %}
 
 Here `name_of_app` is optional.
 
 Consider our `library` app, migrations for it can be created by running the following command.
 
-    python manage.py migrate library
+{% gist 4d804d2fd9b26a7e7a03942a8cd0371e %}
 
 A file called `0001_initial.py` will be created in `library/migrations` directory.
 
@@ -60,23 +53,17 @@ It is always advised to create a named migration since it becomes easier to infe
 
 We can create named migration by running the following command
 
-    python manage.py makemigrations --name=<name_of_migration>
+{% gist 77c41772c53542835883cec260387427 %}
 
 A small note here, the name of migration should not exceed 50 characters.
 
 Let’s add another field named `publisher` in our `Book` model. Our model will now look like
 
-    # library/models.py
-    from django.db import models
-
-    class Book(models.Model):
-       title = models.CharField(max_length=255)
-       isbn = models.CharField(max_length=13)
-       publisher = models.CharField(max_length=250)
+{% gist 70d579f0391896cc110e279027a120e4 %}
 
 To create named migration for this, we need to run `makemigrations` as
 
-    python manage.py makemigrations library --name=add_publisher
+{% gist f7c6836d885e81ee558984ac1a3c2ef4 %}
 
 ### How to apply a migrations
 
@@ -84,7 +71,7 @@ Once the migration, we need to apply them, so that changes can be reflected in t
 
 To apply migration, we need to run `migrate` command as follows
 
-    python manage.py migrate
+{% gist aa83dce04442aea709150fc2a3117ab8 %}
 
 By running this command, all the unapplied migration are applied to the database.
 
@@ -98,12 +85,12 @@ Many times, we need to undo the migration as well. Or in simple words, we need t
 
 Undoing a migration can be done by using migrate command, but we need to pass app name as well as the name of migration at which we want to rollback.
 
-    python manage.py migrate <name_of_app> <rollback_migration_name>
+{% gist ba39e498a4d5b07f5898817823bbe3ae %}
 
 Let’s remove `publisher` field from our `Book` model. This can be done by undoing `0002_add_publisher` migration.
 Since we need to undo this migration, we will pass `0001_initial` as an argument to migrate. The command will look like
 
-    python manage.py mgirate library 0001_initial
+{% gist dffb70169360634c9694637f8afff7e3 %}
 
 By running this command, `publisher` field will be removed from `book` table in the database schema.
 
@@ -118,7 +105,7 @@ In simpler words, for each migration which is faked, an entry is created in `dja
 
 Django provides with a built-in functionality, which allows us to clear all the migration for a particular app. To clear migration for an app, we need to run the following command
 
-    python manage.py migrate <name_of_app> zero
+{% gist 31c6ccf71e76b24cd0ac365742d4c24f %}
 
 Here zero tells migrate command to clear the migration for a particular app.
 
@@ -126,16 +113,11 @@ Here zero tells migrate command to clear the migration for a particular app.
 
 Django provides a built-in command called `showmigrations` to list and display all migrations. It can be run as
 
-    python manage.py showmigrations
+{% gist 23e14f0a20f7c9efad65bd0fb6c2e84d %}
 
 When this command is run for our django_library application, we get the following output.
 
-    admin
-     [X] 0001_initial
-     [X] 0002_logentry_remove_auto_add
-    library
-     [X] 0001_initial
-     [ ] 0002_add_publisher
+{% gist 10c64179334dc97ed04ba494fe6a3fc5 %}
 
 Here `[X]` indicates that the migration has been applied and `[]` indicates that the migration has not been applied. In our case, `0002_add_publisher` is not applied.
 
