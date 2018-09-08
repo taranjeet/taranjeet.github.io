@@ -25,7 +25,7 @@ beautifully with core contributions from [Deshraj](https://github.com/deshraj),
 It started with a simple contribution from my side. However, I ended up playing
 multiple crucial and interesting roles while actively participating in designing
 and developing the whole project, database schema, API design guidelines to
-follow, project structure, deciding major code and decision flows, and writing
+follow, project structure, deciding major code and decision flows and writing
 tests.
 
 Everything happened swiftly and the learning graph was exponential. Things took
@@ -58,3 +58,10 @@ I feel EvalAI gave me a wonderful experience, that too in a very short span of
 time. After having worn so many hats, now I feel I should wear the “Community”
 hat. Helping first-time contributors onboard quickly on the project is what I am
 looking forward to.
+
+One of the interesting areas that I am actively looking forward to is product design, especially from the frontend perspective. We have an awesome designer Akash Jain, who I feel will be my SPOC for this.
+A very important thing for which Deshraj and I are really hustling (most of the times figuring out) is setting up organisational values and culture. Being a part of an open source organisation is an amazing thing, but setting up organisational values and guidelines when an organisation is growing is a challenging problem. For this, I feel Harsh, [Dhruv](https://www.facebook.com/dhruv.batra.dbatra) and [Devi](https://www.facebook.com/deviparikh) will help us.
+
+#### Summary
+
+To sum up, my experience till now in CloudCV organisation has been really AMAZING. Thanks, CloudCV for such an opportunity and the ongoing learnings. :)
