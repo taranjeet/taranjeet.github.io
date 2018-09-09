@@ -133,7 +133,7 @@ The basic process of creating and applying migration is the following.
 
 ### Role of django_migrations table
 
-Whenever any migration is applied or unapplied, Django records this in a table called `django_migrations`. This table stores the name of app, name and of migration and a datetime field, which tells when the migration was applied.
+Whenever any migration is applied or unapplied, Django records this in a table called `django_migrations`. This table stores the name of the app, name and of migration and a datetime field, which tells when the migration was applied.
 
 This table is used by Django to keep track of which migration to apply and which migrations have been applied.
 
