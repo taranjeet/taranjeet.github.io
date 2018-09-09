@@ -19,7 +19,7 @@ Config for travis lives in a file called `.travis.yml` which should be present a
 of the project. When any commit is pushed or a pull request is created, a webhook is triggered, which
 initiates the travis and it then checks the build process.
 
-Initially greb had only a travis integration, which looked something like
+Initially, greb had only a travis integration, which looked something like
 
 ```
 language: python
@@ -37,7 +37,7 @@ script:
     - "flake8 test"
 ```
 
-The file is self explanatory, except the script part. Here I am using unit testing hence the line `python -m test.test_greb`
+The file is self-explanatory, except the script part. Here I am using unit testing hence the line `python -m test.test_greb`
 
 Now I wanted to integrate [coveralls.io](https://coveralls.io) in greb. The integration is very simple. Here are the steps
 
