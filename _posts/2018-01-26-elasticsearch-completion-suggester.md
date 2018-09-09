@@ -17,11 +17,11 @@ In an earlier [post](/elasticsearch-autocomplete/), we discussed various approac
 
 ### Mapping
 
-To use Completion Suggester, a special type of mapping type called `completion` is defined. Let’s take example of Marvel movie data and define an index named `movies` with type as `marvels` . Complete movie list can be accessed from [here](https://github.com/taranjeet/data/blob/master/marvel_movies_v2.json)
+To use Completion Suggester, a special type of mapping type called `completion` is defined. Let’s take an example of Marvel movie data and define an index named `movies` with type as `marvels` . Complete movie list can be accessed from [here](https://github.com/taranjeet/data/blob/master/marvel_movies_v2.json)
 
 {% gist 7f51e6050d0c6ca4e1404f5e8350cd2d %}
 
-Here `name.completion` is a type of completion field. On this field, we can add various other mapping parameters like analyzer, search_analyzer, etc.
+Here `name.completion` is a type of completion field. In this field, we can add various other mapping parameters like analyzer, search_analyzer, etc.
 
 ### Indexing Data
 
@@ -95,7 +95,7 @@ The response received looks like
 
 {% gist a552c168f0a40d38ca501610a0a6f4c3 %}
 
-In the response we see that `hits` key along with `suggest` is present. This happened because query and suggest works at the same level parallely. Hence we get both keys in response. So we cannot apply filter in a suggestion query.
+In the response, we see that `hits` key along with `suggest` is present. This happened because query and suggest works at the same level parallely. Hence we get both keys in response. So we cannot apply filter in a suggestion query.
 
 To deal with this, Completion Suggester provides [Context Suggester](https://www.elastic.co/guide/en/elasticsearch/reference/6.1/suggester-context.html), which are basically filters for `completion` field. Let’s define another mapping for movies index, this time with `year` as a context suggester for `name` field.
 
@@ -105,7 +105,7 @@ We can index our complete movies data into this index. Let’s find all movies w
 
 {% gist 7addaf95b2a8daa7f2733c5f67f52a39 %}
 
-We get the following movies as result
+We get the following movies as the result
 
 * Iron Man
 
