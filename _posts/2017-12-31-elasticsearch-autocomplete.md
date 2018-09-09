@@ -10,7 +10,7 @@ author: taranjeet
 
 ## **What is Autocomplete ?**
 
-Let’s take a very common example. Whenever you go to google and start typing, a drop-down appears which lists the suggestions. Those suggestions are related to the query and help user in completing his query.
+Let’s take a very common example. Whenever you go to google and start typing, a drop-down appears which lists the suggestions. Those suggestions are related to the query and help the user in completing his query.
 
 ![Suggestions when typing on Google](https://cdn-images-1.medium.com/max/2000/1*Vq_ETVxcROG7fBtMkiqJuw.png)*Suggestions when typing on Google*
 
@@ -63,7 +63,7 @@ Some of the things to keep in mind when implementing Completion Suggester
 
 * Weights can be defined with each document to control their ranking.
 
-* Storing all the terms in lowercase helps in case-insensitive match.
+* Storing all the terms in lowercase helps in the case-insensitive match.
 
 * Context suggesters can be enabled to support filtering or boosting by certain criteria.
 
@@ -79,7 +79,7 @@ This approach is the ideal approach to implement autocomplete functionality, how
 
 ## **Implementation**
 
-Let’s implement above approaches in Elasticsearch. We will be using Marvels movie data to build our sample index. For easy reference, here is the
+Let’s implement the above approaches in Elasticsearch. We will be using Marvels movie data to build our sample index. For easy reference, here is the
 
 * Spider-Man: Homecoming
 
@@ -159,7 +159,7 @@ This will result in the following movie
 
 The result is fair, but some movies like *Captain America: The Winter Soldier*, *Guardians of the Galaxy* are **missed** because prefix query only matches at the beginning of the text and not in the middle.
 
-Lets try finding another movie beginning with `am`.
+Let's try finding another movie beginning with `am`.
 
 
 {% gist 0eae921adb5617f88465710d7deec71b %}
@@ -190,7 +190,7 @@ Here we get the following result
 
 Let’s try finding for Captain America again, but this time with a bigger phrase `captain america the`
 
-On Using Edge N-gram approach, we get the following movies
+Using Edge N-gram approach, we get the following movies
 
 * Captain America: The Winter Soldier
 
@@ -214,7 +214,7 @@ On Using Edge N-gram approach, we get the following movies
 
 If we observe our phrase, only the first two suggestion makes sense. The reason for so many terms getting matched is the functioning of `match` clause. match includes all the documents which contain `captain OR america OR the`. Since the field is analysed using ngram, more suggestions(if present) will get included as well.
 
-Let’s try using suggestion query for the same phrase `captain america the` . Suggestion query is written in a slightly different way.
+Let’s try using the suggestion query for the same phrase `captain america the` . Suggestion query is written in a slightly different way.
 
 
 {% gist ebc42072c89e62b59b384baeb95ff14c %}
