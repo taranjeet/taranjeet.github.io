@@ -7,17 +7,17 @@ tag:
 category: blog
 ---
 
-Many a times we are faced with the requirement of sshing into production machines, looking up something from production database
-or debugging app. Sometimes the issues are so serious, that we totally forget that we are on production machines and we do some
+Many times we are faced with the requirement of sshing into production machines, looking up something from production database
+or debugging the app. Sometimes the issues are so serious, that we totally forget that we are on production machines and we do some
 serious breaking shit over there.
 
-So one of the way to clearly differentiate whether you are on a production machine or local, can be changing the color of the terminal.
-Yes it is possible and it works wonderfully.
+So one of the way to clearly differentiate whether you are on a production machine or local can be changing the color of the terminal.
+Yes, it is possible and it works wonderfully.
 
-This post is about doing such configuration on Iterm2, oh-my-zsh and Mac(Os X El Captain). Ideally this will remain same for most of the
+This post is about doing such configuration on Iterm2, oh-my-zsh and Mac(Os X El Captain). Ideally, this will remain same for most of the
 linux systems(but having oh-my-zsh is a requirement as I am using its dot folder).
 
-To begin with first we will create different color profiles on Iterm 2.
+To begin with, first we will create different color profiles on Iterm 2.
 
 * Open Iterm2 prefences (shortcut key ⌘ + ,)
 * Go to Profiles tab ![iterm2-preferences](/public/img/iterm2-pref.png)
@@ -61,14 +61,14 @@ compdef _ssh tabc=ssh
 alias ssh="colorssh"
 ```
 
-How is this working ?
+How is this working?
 
 * colorssh is the function which is responsible for changing color. So it is aliased to _ssh_.
 * _tabc_ is the function responsible for selecting a _Profile_. When it is passed no arguments, then
 it selects the `Default` profile.
 * `\033]` is `Esc`, `\033]50;` means Escape 50 character. This is a custom escape code, which iTerm2 supports
 to change profile on the fly.
-* tab-reset is responsible for restoring the theme to default when ever any ssh connection is terminated. trap is
+* tab-reset is responsible for restoring the theme to default whenever any ssh connection is terminated. trap is
 something like event listener, which traps(or listen) any int exit code. Whenever any ssh session is terminated,
 exit code is produced. This traps that exit code and calls `tab-reset`, thereby resetting the profile to `Default`.
 * Normal if else blocks command line argument to regular expression bases string. `$*` is the expansion of positional
