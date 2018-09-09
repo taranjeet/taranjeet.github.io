@@ -12,7 +12,7 @@ author: taranjeet
 
 This post is about setting up Nginx and uwsgi for a django project.
 
-Some conventions that I have sticked to while doing so are written down here. First of all I will be creating a user named `ubuntu` and a group named `ubuntu`. This `ubuntu` user will be responsible for running nginx as well as uwsgi.  This is necessary so that the socket created between nginx and uwsgi does not get trapped in Permission denied error. Also I am assuming that the server is a fresh install of Ubuntu 14.04. Lets begin with the steps:
+Some conventions that I have sticked to while doing so are written down here. First of all I will be creating a user named `ubuntu` and a group named `ubuntu`. This `ubuntu` user will be responsible for running nginx as well as uwsgi.  This is necessary so that the socket created between nginx and uwsgi does not get trapped in Permission denied error. Also, I am assuming that the server is a fresh install of Ubuntu 14.04. Let's begin with the steps:
 
 * Create a user named `ubuntu`.
 
@@ -29,7 +29,7 @@ sudo pip install uwsgi
 sudo apt-get -f install nginx-full
 ```
 
-* Clone the repository in the home directory of `ubuntu` user. Assuming that name of the project is explore-webserver.
+* Clone the repository in the home directory of `ubuntu` user. Assuming that the name of the project is explore-webserver.
 
 ```
 git clone https://github.com/staranjeet/explore-webserver.git
@@ -63,7 +63,7 @@ vacuum = true
 
 ```
 
-* Create a upstart script for uwsgi in `/etc/init` folder. This script is created to automatically start the service at boot plus we can manually start/stop or restart/reload the service. Lets name this script as `uwsgi.conf`.
+* Create a upstart script for uwsgi in `/etc/init` folder. This script is created to automatically start the service at boot plus we can manually start/stop or restart/reload the service. Let's name this script as `uwsgi.conf`.
 
 ```
 description "uWSGI application server in Emperor mode"
