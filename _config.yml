@@ -16,10 +16,11 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://taranjeet.cc
+# earlier the url was `https://taranjeet.github.io`, but it was
+# generating mixed content warning
 # so that asset is served over https if available
 # https://www.paulirish.com/2010/the-protocol-relative-url/
-without-scheme-url: taranjeet.cc
+url: https://taranjeet.cc
 
 permalink: /:title/
 
