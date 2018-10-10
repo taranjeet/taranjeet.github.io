@@ -19,7 +19,7 @@ resume-url: https://google.com/?q=my+resume
 url: https://taranjeet.github.io
 # so that asset is served over https if available
 # https://www.paulirish.com/2010/the-protocol-relative-url/
-without-scheme-url: taranjeet.github.io
+without-scheme-url: taranjeet.cc
 
 permalink: /:title/
 
