@@ -3,7 +3,7 @@ name: Taranjeet Singh
 bio: Full Stack Developer, Entrepreneur
 
 # twitter summary info
-description: A blog about my experience
+description: Things I learn
 
 # if it's an external image, update below for true
 # better with square images
@@ -92,7 +92,6 @@ show-author: true
 animation: true
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
