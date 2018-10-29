@@ -4,6 +4,10 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
+<center>
+{% include social-links.html %}
+</center>
+
 I am Taranjeet Singh, and I can help you start your business, build your product, design your system architecture and grow an engineering team. I can also help you in increasing engagement within your company by conducting various events like hackathons, quizzes.
 
 ## Startups
