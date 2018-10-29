@@ -27,7 +27,7 @@ Let's consider an example of a library wherein form is required to fill details 
 
 Let's create a view wherein a user can add and store multiple books at once. For this, we will need a form, whose formset can be made. We will first start with a normal form and see how we can make formsets using normal form. We are using [Bootstrap](https://getbootstrap.com/) to power our styling.
 
-![normal-dynamic-formset](/public/img/book_formset.png "Dynamic Formsets")
+![normal-dynamic-formset](/assets/images/book_formset.png "Dynamic Formsets")
 
 The form definition will look like this
 
@@ -71,7 +71,7 @@ The template code(part 3) and javascript code(part 4) remains the same.
 
 Let's consider a more complex case wherein we need to save form along with a formset. This can be easily understood by taking the example of `Book` and `Author`. Here we will create a modelform for `Book` and modelformset for `Author`.
 
-![normal-dynamic-formset](/public/img/book_with_author.png "Form with Formsets")
+![normal-dynamic-formset](/assets/images/book_with_author.png "Form with Formsets")
 
 {% gist c503278293ea77f77fb2e0f88f8d9fc7 %}
 
