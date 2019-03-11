@@ -8,22 +8,46 @@ layout: page
 {% include social-links.html %}
 </center>
 
-I am Taranjeet Singh, and I can help you start your business, build your product, design your system architecture and grow an engineering team. I can also help you in increasing engagement within your company by conducting various events like hackathons, quizzes.
+I am an engineer with an entrepreneurial mindset.
 
-## Open Source
+I have worked with large organizations including Paytm, Open edX, Schneider Electric and startups like [Gradeup](https://gradeup.co) and [Inclusys](https://inclusys.com).
 
-I am an active Open source developer. Some of my major contributions include
+I [successfully](#entrepreneurial-attempts) ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
 
-* [Evalai](https://evalai.cloudcv.org/), a Cloud-CV Project - I played a key role here in developing the product from scratch to leading its participation in the GSOC and making the onboarding of new users easy. One very notable contribution here is the implementation of [parallelized backend](https://github.com/Cloud-CV/EvalAI/commit/14d4803f60884fffffdde873f76ae05ff5f2b742), which takes approximately 2 minutes for a submission to be processed in comparison to standard 10-12 minutes taken by [Microsoft Codalabs](https://www.microsoft.com/en-us/research/project/codalab/)
+Here are some details about my initiatives and experiences
 
-* [Wye](https://pythonexpress.in/), a Python India Project - I was responsible for building dashboards and learning platforms for tutors.
+[Book Contribution](#book-contribution) \| [Open Source Contributions](#open-source-contributions) \| [Entrepreneurial Attempts](#entrepreneurial-attempts) \| [Hackathons](#hackathons)
 
-* [Zulip](https://zulipchat.com/), a Dropbox Project - I was responsible for setting up a custom linting pipeline for the whole codebase.
+## Book Contribution
 
-## Work Experience
+* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.pragmaticnlp.com/).  The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
-I have worked at Paytm (2015-2017), and Gradeup (2017-2018). I have interned at Schneider Electric (2013) and Fratmart.com (2014).
+## Open Source Contributions
+
+* Developed [Evalai](https://evalai.cloudcv.org), a platform to help researchers collaborate and participate in various AI challenges. It is used by organizations like Carnegie Mellon, Stanford University, Facebook AI Research, Google, Draper, etc.
+
+* Other notable contributions include creating [tutors's dashboard](https://github.com/pythonindia/wye/commits?author=taranjeet) for PythonIndia's wye, refactoring [code linting](https://github.com/zulip/zulip/commits?author=taranjeet) pipeline for Dropbox's Zulip, [improving test cases](https://github.com/mozilla/fjord/commits?author=taranjeet) for Mozilla’s Fjord.
+
+* Setup open source culture at Paytm and Gradeup.
+
+## Entrepreneurial Attempts
+
+* ___[2019]___ Created on online platform for youtubers to connect deeply with their audience. Started from Exam Preparation Space in India and onboarded a youtuber, with more than 1.5L subscribers.
+
+* ___[2017]___ Launched an AI powered platform for restaurants to improve customer dining experience. Onboarded four restaurants within a span of one month.
+
+* ___[2014]___ Developed and managed an E-commerce Store for laptop stickers. Three hundred orders were placed in two months.
+
+* ___[2013]___ Developed a Hyperlocal Apparels Deal Aggregator Platform in 2013. Onboarded forty merchants from five malls of NCR.
+
+## Hackathons
+
+Organized, Judged and Sponsored Hackathons. They are a way to accelerate learning, increase engagement and build team, improve society through technology and assess an individual.
+
+* [Organized](https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3) an internal hackathon at Gradeup. I was responsible for everything; problem statement, team creation, judging criteria, awards, itinerary planning, food and logistics. Notable outcomes were creation of internal tools, Gradeup's achievement timeline and new look for the whole office. Was awarded by CEO for this initiative.
+
+* Sponsored Smart India Hackathon 2017, held at JSS Noida via one of my startups. I was also a Mentor and Judge at this event.
 
 ## Help
 
-I love helping people around the world with whatever best I can. I am open for work opportunities, collaboration on some projects, advice or some tea. Find me via [email](mailto:{{site.email}}) or Twitter [@taranjeet7114](https://twitter.com/{{site.twitter}})
+I love helping people around the world with whatever best I can. I am open for work opportunities, collaboration on some projects, advice or some tea. Find me via [email](mailto:{{site.email}}) or Twitter [@taranjeet7114](https://twitter.com/{{site.twitter}}).
