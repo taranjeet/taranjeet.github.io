@@ -24,7 +24,7 @@ Here are some details about my initiatives and experiences
 
 ## Open Source Contributions
 
-* Developed [Evalai](https://evalai.cloudcv.org), a platform to help researchers collaborate and participate in various AI challenges. It is used by organizations like Carnegie Mellon, Stanford University, Facebook AI Research, Google, Draper, etc.
+* Developed [Evalai](https://evalai.cloudcv.org) from scratch, a platform to help researchers collaborate and participate in various AI challenges. It is used by organizations like Carnegie Mellon, Stanford University, Facebook AI Research, Google, Draper, etc.
 
 * Other notable contributions include creating [tutors's dashboard](https://github.com/pythonindia/wye/commits?author=taranjeet) for PythonIndia's wye, refactoring [code linting](https://github.com/zulip/zulip/commits?author=taranjeet) pipeline for Dropbox's Zulip, [improving test cases](https://github.com/mozilla/fjord/commits?author=taranjeet) for Mozilla’s Fjord.
 
