@@ -12,7 +12,7 @@ I am an engineer with an entrepreneurial mindset.
 
 I have worked with large organizations including Paytm, Open edX, Schneider Electric and startups like [Gradeup](https://gradeup.co) and [Inclusys](https://inclusys.com).
 
-I [successfully](#entrepreneurial-attempts) ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
+I successfully ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
 
 Here are some details about my initiatives and experiences
 
