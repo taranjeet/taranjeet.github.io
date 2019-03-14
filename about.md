@@ -42,9 +42,9 @@ Here are some details about my initiatives and experiences
 
 ## Hackathons
 
-Organized, Judged and Sponsored Hackathons. They are a way to accelerate learning, increase engagement and build team, improve society through technology and assess an individual.
+Organized, Judged and Sponsored Hackathons. They are a way to accelerate learning, increase engagement and build team, improve and benefit society through technology and assess an individual.
 
-* [Organized](https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3) an internal hackathon at Gradeup. I was responsible for everything; problem statement, team creation, judging criteria, awards, itinerary planning, food and logistics. Notable outcomes were creation of internal tools, Gradeup's achievement timeline and new look for the whole office. Was awarded by CEO for this initiative.
+* [Organized](https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3) an internal hackathon at Gradeup. I was responsible for everything; problem statement, build teams, judging criteria, awards, itinerary planning, food and logistics. Notable outcomes were creation of internal tools, Gradeup's achievement timeline and new look for the whole office. Was awarded by CEO for this initiative.
 
 * Sponsored Smart India Hackathon 2017, held at JSS Noida via one of my startups. I was also a Mentor and Judge at this event.
 
