@@ -14,7 +14,7 @@ I have worked with large organizations including Paytm, Open edX, Schneider Elec
 
 I successfully ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
 
-I built an [open source project](https://github.com/cloud-cv/evalai) (650+ stars, 300+ forks on Github) which is used by organizations like Stanford, Carnegie Mellon, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
+I built and led an [open source project](https://github.com/cloud-cv/evalai) (650+ stars, 300+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
 
 Here are some details about my initiatives and experiences
 
@@ -26,11 +26,11 @@ Here are some details about my initiatives and experiences
 
 ## Open Source Contributions
 
-* Created [Evalai](https://evalai.cloudcv.org) from scratch, a platform to help researchers collaborate and participate in various AI challenges. It is used by organizations like Stanford University, Carnegie Mellon, Facebook AI Research, Google, etc. 2100+ issues & pull requests, 650+ stars, 300+ forks on Github. A [company](https://caliper.ai/) is built around a forked version of it.
+* Created [Evalai](https://evalai.cloudcv.org) from scratch which is a platform to create, collaborate and participate in various AI challenges organized around the globe. It is used by organizations like Stanford University, Carnegie Mellon University, Facebook AI Research, Google AI Research, etc. 2100+ issues & pull requests, 650+ stars, 300+ forks on Github. A [company](https://caliper.ai/) is built around a forked version of it.
 
 * Other notable contributions include creating [tutors's dashboard](https://github.com/pythonindia/wye/commits?author=taranjeet) for PythonIndia's wye, refactoring [code linting](https://github.com/zulip/zulip/commits?author=taranjeet) pipeline for Dropbox's Zulip, [improving test cases](https://github.com/mozilla/fjord/commits?author=taranjeet) for Mozilla’s Fjord.
 
-* Setup open source culture at Paytm and Gradeup.
+* Setup open source culture at Paytm and [Gradeup](https://github.com/gradeup/gradeup.github.io/commits?author=taranjeet).
 
 ## Entrepreneurial Attempts
 
