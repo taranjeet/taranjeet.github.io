@@ -6,7 +6,7 @@ tag:
 - opensource
 category: blog
 author: taranjeet
-description: This post contains a notable list of open source contributions by Taranjeet Singh.
+description: This post contains a selective list of open source contributions by Taranjeet Singh.
 ---
 
 This page contains a selective list of open source contributions I have made so far.
