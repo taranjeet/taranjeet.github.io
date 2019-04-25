@@ -40,6 +40,8 @@ This page contains a selective list of open source contributions I have made so 
 
 - Created [dj-myghanta](https://github.com/paytm/dj-myghanta/commits?author=taranjeet) to create timestamp model field for MYSQL.
 
+- Created [courier-plugin-sdk-nodejs](https://github.com/paytm/courier-plugin-sdk-nodejs) to ease out third party integrations and reduce their onboarding time.
+
 ### Open Source at Gradeup
 
 - Created [Rule Engine GUI](https://github.com/gradeup/youknowwho-gui/commits?author=taranjeet) to create/edit/delete rules.
