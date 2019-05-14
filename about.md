@@ -16,6 +16,8 @@ I successfully ideated, designed and developed products in hyperlocal, ecommerce
 
 I built and led an [open source project](https://github.com/cloud-cv/evalai) (650+ stars, 300+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
 
+I developed ML algorithms for Gradeup School, a search engine for K12 students, featured in [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
+
 Here are some details about my initiatives and experiences
 
 [Book Contribution](#book-contribution) \| [Open Source Contributions](#open-source-contributions) \| [Entrepreneurial Attempts](#entrepreneurial-attempts) \| [Hackathons](#hackathons)
