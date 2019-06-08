@@ -75,7 +75,7 @@ In this semester, learn HTML, CSS. You should learn how to build static web page
 
 Next, you should learn how to use git and GitHub. It's very important and will be used throughout your entire career in software development. Also, commit all the code that you create during this semester to your GitHub account.
 
-You can learn Javascript and Jquery if you want to add some interactivity to the pages. This is additional.
+You can learn JavaScript and jQuery if you want to add some interactivity to the pages. This is additional.
 
 You can participate in international challenges like [100 days of code](https://www.100daysofcode.com/). This gives you a community of like minded people willing to learn and helps you in case you get stuck.
 
