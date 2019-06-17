@@ -24,7 +24,7 @@ Here are some details about my initiatives and experiences
 
 ## Book Contribution
 
-* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.pragmaticnlp.com/).  The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
+* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.pragmaticnlp.ai/).  The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
 ## Open Source Contributions
 
