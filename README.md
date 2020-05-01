@@ -1,6 +1,6 @@
 # taranjeet.github.io
 
-This is the source code for my personal page hosted [here](https://taranjeet.cc). It is a modifed version of [indigo](https://github.com/sergiokopplin/indigo) theme.
+This is the source code for my personal page hosted [here](https://taranjeet.co). It is a modifed version of [indigo](https://github.com/sergiokopplin/indigo) theme.
 
 ## Setup
 
