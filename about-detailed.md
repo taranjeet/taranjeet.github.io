@@ -14,7 +14,7 @@ I have worked with large organizations including Paytm, Open edX, Schneider Elec
 
 I successfully ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
 
-I built and led an [open source project](https://github.com/cloud-cv/evalai) (700+ stars, 350+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
+I built and led an [open source project](https://github.com/cloud-cv/evalai) (900+ stars, 450+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
 
 I developed ML algorithms for Gradeup School, a search engine for K12 students, featured in [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
 
@@ -24,7 +24,7 @@ Here are some details about my initiatives and experiences
 
 ## Book Contribution
 
-* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.practicalnlp.ai/).  The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
+* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.practicalnlp.ai/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
 ## Open Source Contributions
 
