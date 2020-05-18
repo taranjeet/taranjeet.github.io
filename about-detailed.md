@@ -8,7 +8,7 @@ layout: page
 {% include social-links.html %}
 </center>
 
-I am the first growth engineering hire at KhataBook and learning Growth at [Reforge](https://www.reforge.com/) 2020.
+I am the first growth engineering hire at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18) and learning Growth at [Reforge](https://www.reforge.com/) 2020.
 
 I have worked with large organizations including Paytm, Open edX, Schneider Electric and startups like [Gradeup](https://gradeup.co) and [Inclusys](https://inclusys.com).
 

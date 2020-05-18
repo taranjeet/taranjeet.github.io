@@ -5,9 +5,9 @@ layout: page
 
 # Hey 👋🏻
 
-I am the first growth engineering hire at KhataBook and learning Growth at [Reforge 2020](https://www.reforge.com/).
+I am the first growth engineering hire at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18) and learning Growth at [Reforge 2020](https://www.reforge.com/).
 
-Previously, I built a [search engine](https://play.google.com/store/apps/details?id=co.gradeup.k12&hl=en_IN) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html). I also built and led a [popular open source](https://evalai.cloudcv.org/) (900+ stars, 450+ forks on Github) alternative to Kaggle, which is being used by organizations like Stanford, CMU, Google AI Research and FAIR.
+Previously, I built and scaled a [search engine](https://play.google.com/store/apps/details?id=co.gradeup.k12&hl=en_IN) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html). I also built and led a [popular open source](https://evalai.cloudcv.org/) (900+ stars, 450+ forks on Github) alternative to Kaggle, which is being used by organizations like Stanford, CMU, Google AI Research and FAIR.
 
 I helped develop an [educational product](https://www.talkwithmeapp.com/) for people with Autism, being backed by the New Zealand Government Crown Entity.
 
