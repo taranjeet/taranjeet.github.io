@@ -8,13 +8,13 @@ layout: page
 {% include social-links.html %}
 </center>
 
-I am the first growth engineering hire at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18) and learning Growth at [Reforge](https://www.reforge.com/) 2020.
+Currently working as Senior Product Manager at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18), I was the first growth engineering hire. I learned fundamentals of Product - Growth at [Reforge 2020](https://www.reforge.com/).
 
 I have worked with large organizations including Paytm, Open edX, Schneider Electric and startups like [Gradeup](https://gradeup.co) and [Inclusys](https://inclusys.com).
 
 I successfully ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
 
-I built and led an [open source project](https://github.com/cloud-cv/evalai) (900+ stars, 450+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
+I built and led an [open source project](https://github.com/cloud-cv/evalai) (1K+ stars, 500+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
 
 I developed ML algorithms for Gradeup School, a search engine for K12 students, featured in [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
 
