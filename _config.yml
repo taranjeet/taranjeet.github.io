@@ -1,6 +1,6 @@
 # main text of home
 name: Taranjeet Singh
-bio: Full Stack Developer with Entrepreneurial Mindset
+bio: Full Stack Engineer turned Product Growth Manager
 
 # twitter summary info
 description: Things I learn
@@ -52,7 +52,7 @@ email: taranjeet7114@gmail.com
 authors:
     taranjeet:
         name: Taranjeet Singh
-        bio: Full Stack Developer, Entrepreneur
+        bio: Full Stack Engineer, Failed Entrepreneur
         external-image: false
         picture: assets/images/profile.jpg
         twitter: taranjeet7114
