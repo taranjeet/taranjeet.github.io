@@ -5,3 +5,4 @@ gem 'html-proofer'
 gem 'jekyll-admin'
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
+gem "webrick"
