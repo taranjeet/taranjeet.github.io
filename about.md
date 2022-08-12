@@ -3,24 +3,24 @@ title: About
 layout: page
 ---
 
-# Hey 👋🏻
+<div align="center"><h1> Hello, I am Taranjeet 👋</h1></div>
 
-Currently working as Senior Product Manager at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18), I was the first growth engineering hire. I learned fundamentals of Product - Growth at [Reforge 2020](https://www.reforge.com/).
+- I am an engineer who knows product and growth. 
+- I am working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at $600Mn). I was the first growth engineering hire here.
+- I have learned fundamentals of Product Growth at [Reforge 2020](https://www.reforge.com/).
+- I have worked as an engineer with
+    - Paytm (listed on Indian Stock Exchange, ~$6Bn market cap),
+    - Gradeup (acquired by Byjus, valued at ~$23Bn)
+    - Open edX
+    - Schneider Electric.
+- I helped develop [Evalai](https://eval.ai/) from scratch. It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI). It is used by Stanford, CMU, Google AI Research, Facebook AI Research.
+- I built and scaled a [search engine](https://www.facebook.com/watch/?v=883796972040441) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
+- I helped develop an [educational product](https://www.talkwithmeapp.com/) for people with Autism. New Zealand Government Crown Entity backs this project.
+- I co-authored a chapter on for [Practical Natural Language Processing](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
-Previously, I built and scaled a [search engine](https://play.google.com/store/apps/details?id=co.gradeup.k12&hl=en_IN) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html). I also built and led a [popular open source](https://evalai.cloudcv.org/) (1K+ stars, 500+ forks on Github) alternative to Kaggle, which is being used by organizations like Stanford, CMU, Google AI Research and FAIR.
+I love helping and connecting with new people. You can reach to me via email.
 
-I helped develop an [educational product](https://www.talkwithmeapp.com/) for people with Autism, being backed by the New Zealand Government Crown Entity.
-
-I co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.practicalnlp.ai/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
-
-I have also tinkered around with entrepreneurial attempts many times. My most recent attempt was in the creator's space, where I onboarded a youtube creator with 3L subscribers for the product.
-
-In the past, I have worked with high growth startups like Paytm, and large organizations like Open edX, Schneider Electric.
-
-You can reach out to me via [Email](mailto:{{site.email}}) or [Twitter](https://twitter.com/{{site.twitter}}).
-
-PS: I have a [detailed version](/about-detailed/) of this about page as well.
-
+PS: I have a [detailed version](https://taranjeet.co/about-detailed/) of this about page as well.
 <center>
 {% include social-links.html %}
 </center>
