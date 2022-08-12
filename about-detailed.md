@@ -49,7 +49,7 @@ Here are some details about my initiatives and experiences
 
 ## Entrepreneurial Attempts
 
-* ___[2019]___ Created an online platform for youtubers to connect deeply with their audience. Started from Exam Preparation Space in India and onboarded a youtuber, with more than 1.5L subscribers.
+* ___[2019]___ Created an online platform for Youtubers to connect with their audience. Onboarded a Youtuber with 1.5L subscribers. 
 
 * ___[2017]___ Launched an AI powered platform for restaurants to improve customer dining experience. Onboarded four restaurants within a span of one month.
 
