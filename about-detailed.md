@@ -24,15 +24,28 @@ Here are some details about my initiatives and experiences
 
 ## Book Contribution
 
-* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](http://www.practicalnlp.ai/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
+* Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
 ## Open Source Contributions
 
-* Created [Evalai](https://evalai.cloudcv.org) from scratch which is a platform to create, collaborate and participate in various AI challenges organized around the globe. It is used by organizations like Stanford University, Carnegie Mellon University, Facebook AI Research, Google AI Research, etc. 2100+ issues & pull requests, 700+ stars, 350+ forks on Github. A [company](https://caliper.ai/) is built around a forked version of it.
+### NLP
 
-* Other notable contributions include creating [tutor's dashboard](https://github.com/pythonindia/wye/commits?author=taranjeet) for PythonIndia's wye, refactoring [code linting](https://github.com/zulip/zulip/commits?author=taranjeet) pipeline for Dropbox's Zulip, [improving test cases](https://github.com/mozilla/fjord/commits?author=taranjeet) for Mozilla’s Fjord.
+- I have created a [tokenisation module](https://github.com/taranjeet/hindi-tokenizer) for Hindi language. It is useful in Natural Language Processing (NLP) tasks. It has 75+ stars and 70+ forks. It gets ~400 monthly user visits.
 
-* Setup open source culture at Paytm and [Gradeup](https://github.com/gradeup/gradeup.github.io/commits?author=taranjeet).
+### EvalAI
+
+- I helped develop [Evalai](https://eval.ai/) from scratch. Evalai is an open source platform for hosting machine learning competitions at scale.
+- It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI).
+- I implemented parallelised backend. It reduced the submission evaluation time by 80% in comparison to [Microsoft Codalab](https://www.microsoft.com/en-us/research/project/codalab/). This made the project popular among CMU, Stanford students. Organisations like Facebook AI Research, Google AI Research also uses it.
+- Evalai is a participant project under Google Summer of Code(GSOC). I was GSOC mentor for EvalAI in 2017. I was invited to GSOC mentor summit held in Google Mountain View office.
+
+### Notable Contributions
+
+- [Refactored code linting pipeline](https://github.com/zulip/zulip/commits?author=taranjeet) for Dropbox's Zulip.
+- [Created dashboards for tutors](https://github.com/pythonindia/wye/commits?author=taranjeet) for PythonIndia's Wye.
+- [Improved test cases](https://github.com/mozilla/fjord/commits?author=taranjeet) for Mozilla's Fjord.
+- Open sourced [several](https://github.com/paytm/django-supermigrate/commits?author=taranjeet) [packages](https://github.com/paytm/django-paytm-oauth/commits?author=taranjeet) at [Paytm](https://github.com/paytm/dj-j-ka-bachcha-field/commits?author=taranjeet) and [Gradeup](https://github.com/gradeup/youknowwho-gui/commits?author=taranjeet).
+
 
 ## Entrepreneurial Attempts
 
