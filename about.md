@@ -15,7 +15,6 @@ I have worked as an engineer with
 <ul>
     <li>Paytm (listed on Indian Stock Exchange, ~$6Bn market cap)</li>
     <li>Gradeup (acquired by Byjus, valued at ~$23Bn)</li>
-    <li>Open edX</li>
     <li>Schneider Electric</li>
 </ul>
 
