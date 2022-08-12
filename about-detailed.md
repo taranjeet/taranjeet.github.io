@@ -24,7 +24,7 @@ I have worked as an engineer with
     <li>Schneider Electric</li>
 </ul>
 
-I helped develop [Evalai](https://eval.ai/) from scratch. It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI). It is used by Stanford, CMU, Google AI Research, Facebook AI Research.
+I helped develop [EvalAI](https://eval.ai/) from scratch. It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI). It is used by Stanford, CMU, Google AI Research, Facebook AI Research.
 
 I built and scaled a [search engine](https://www.facebook.com/watch/?v=883796972040441) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
 
