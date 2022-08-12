@@ -25,7 +25,7 @@ I helped develop an [educational product](https://www.talkwithmeapp.com/) for 
 
 I co-authored a chapter on for [Practical Natural Language Processing](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/). The authors hail from Google AI, Carnegie Mellon, MIT Media Lab and Microsoft Research.
 
-I love helping and connecting with new people. You can reach to me via email.
+I love helping and connecting with new people. You can reach to me via [email](mailto:taranjeet7114@gmail.com).
 
 PS: I have a [detailed version](https://taranjeet.co/about-detailed/) of this about page as well.
 <center>
