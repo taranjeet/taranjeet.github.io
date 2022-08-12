@@ -12,10 +12,12 @@ I am working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2
 I have learned fundamentals of Product Growth at [Reforge 2020](https://www.reforge.com/).
 
 I have worked as an engineer with
-    - Paytm (listed on Indian Stock Exchange, ~$6Bn market cap),
-    - Gradeup (acquired by Byjus, valued at ~$23Bn)
-    - Open edX
-    - Schneider Electric.
+<ul>
+    <li>Paytm (listed on Indian Stock Exchange, ~$6Bn market cap)</li>
+    <li>Gradeup (acquired by Byjus, valued at ~$23Bn)</li>
+    <li>Open edX</li>
+    <li>Schneider Electric</li>
+</ul>
 
 I helped develop [Evalai](https://eval.ai/) from scratch. It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI). It is used by Stanford, CMU, Google AI Research, Facebook AI Research.
 
