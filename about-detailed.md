@@ -8,17 +8,27 @@ layout: page
 {% include social-links.html %}
 </center>
 
-Currently working as Senior Product Manager at [KhataBook](https://techcrunch.com/2019/09/30/khatabook-seriesa-businesses-bookkeeping-payments/) (YC S18), I was the first growth engineering hire. I learned fundamentals of Product - Growth at [Reforge 2020](https://www.reforge.com/).
+<div align="center"><h1> Hello, I am Taranjeet 👋</h1></div>
 
-I have worked with large organizations including Paytm, Open edX, Schneider Electric and startups like [Gradeup](https://gradeup.co) and [Inclusys](https://inclusys.com).
+I am an engineer who knows product and growth. 
+
+I am working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at $600Mn). I was the first growth engineering hire here.
+
+I have learned fundamentals of Product Growth at [Reforge 2020](https://www.reforge.com/).
+
+I have worked as an engineer with
+    - Paytm (listed on Indian Stock Exchange, ~$6Bn market cap),
+    - Gradeup (acquired by Byjus, valued at ~$23Bn)
+    - Open edX
+    - Schneider Electric.
+
+I helped develop [Evalai](https://eval.ai/) from scratch. It gets ~42K monthly visits from ML and AI researchers and practitioners around the world. It has 1400 stars & 600+ forks on [Github](https://github.com/Cloud-CV/EvalAI). It is used by Stanford, CMU, Google AI Research, Facebook AI Research.
+
+I built and scaled a [search engine](https://www.facebook.com/watch/?v=883796972040441) for K12 students, featured at [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
+
+I helped develop an [educational product](https://www.talkwithmeapp.com/) for people with Autism. New Zealand Government Crown Entity backs this project.
 
 I successfully ideated, designed and developed products in hyperlocal, ecommerce, foodtech and edtech and onboarded users.
-
-I built and led an [open source project](https://github.com/cloud-cv/evalai) (1K+ stars, 500+ forks on Github) which is used by organizations like Stanford University, Carnegie Mellon University, Google AI Research, Facebook AI Research. A [company](https://caliper.ai/) is also built around a forked version of it.
-
-I developed ML algorithms for Gradeup School, a search engine for K12 students, featured in [Google IO 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html).
-
-Here are some details about my initiatives and experiences
 
 [Book Contribution](#book-contribution) \| [Open Source Contributions](#open-source-contributions) \| [Entrepreneurial Attempts](#entrepreneurial-attempts) \| [Hackathons](#hackathons)
 
