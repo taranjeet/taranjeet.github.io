@@ -67,4 +67,4 @@ Organized, Judged and Sponsored Hackathons. They are a way to accelerate learnin
 
 ## Help
 
-I love helping people around the world with whatever best I can. I am open for work opportunities, collaboration on some projects, advice or some tea. Find me via [email](mailto:{{site.email}}) or Twitter [@taranjeet7114](https://twitter.com/{{site.twitter}}).
+I love helping and connecting with new people. You can reach to me via [email](mailto:taranjeet7114@gmail.com).
