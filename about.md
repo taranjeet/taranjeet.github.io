@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-<div align="center"><h1> Hello, I am Taranjeet 👋</h1></div>
+<div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
 I am an engineer who knows product and growth. 
 
