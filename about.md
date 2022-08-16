@@ -166,4 +166,6 @@ Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natura
 
 I love connecting with new people. You can reach out to me via [email](mailto:taranjeet7114@gmail.com).
 
-<br/><br/>
+<br/>
+
+{% include social-links.html %}
