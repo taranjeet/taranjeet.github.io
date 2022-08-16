@@ -1,3 +1,8 @@
+---
+title: About
+layout: page
+---
+
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
 Working professional adroit in Product Management, Product Growth and Software Engineering.
@@ -168,4 +173,6 @@ I love connecting with new people. You can reach out to me via [email](mailto:ta
 
 <br/>
 
+<center>
 {% include social-links.html %}
+</center>
