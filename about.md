@@ -30,7 +30,7 @@ Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natura
     </span>
 </div>
 
-* Working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at $600 million). 
+* Working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/). 
 * Hired as the first growth engineer at Khatabook. Transitioned into Product Management by acquiring the fundamentals at [Reforge 2020](https://www.reforge.com/).
 
 <div>
@@ -137,18 +137,18 @@ Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natura
 
 * ___[2013]___ Developed a Hyperlocal Discount Discovery Platform during the second year of engineering. It solved the discounts discovery problem for branded apparels. Onboarded 40 merchants from 5 malls of Delhi NCR. Didn't continue as it involved a lot of operational and sales intervention.
 
+### Writing
+
 <div>
-    <h2 style="text-align:left; display:inline;">
-        Writing
-    </h2>
+    <h3 style="text-align:left; display:inline;" id="book">
+        Book
+    </h3>
     <span style="float:right;">
         <small>
             Mar 2018 - Oct 2019
         </small>
     </span>
 </div>
-
-### Book
 
 * Co-authored a chapter on _Industrial Applications of NLP in Search_ for [Practical Natural Language Processing](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/), published by O'Reilly. The authors hail from Google AI, CMU, MIT Media Lab and Microsoft Research.
 
