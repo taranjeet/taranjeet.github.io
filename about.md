@@ -142,7 +142,7 @@ Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natura
 
 * ___[2013]___ Developed a Hyperlocal Discount Discovery Platform during the second year of engineering. It solved the discounts discovery problem for branded apparels. Onboarded 40 merchants from 5 malls of Delhi NCR. Didn't continue as it involved a lot of operational and sales intervention.
 
-### Writing
+## Writing
 
 <div>
     <h3 style="text-align:left; display:inline;" id="book">
