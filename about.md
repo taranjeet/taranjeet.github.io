@@ -5,19 +5,19 @@ layout: page
 
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
-Working professional adroit in Product Management, Product Growth and Software Engineering.
+* Working professional adroit in Product Management, Product Growth and Software Engineering.
 
-Working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at $600 Mn). 
+* Working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at $600 Mn). 
 
-Worked as a software engineer at [Gradeup](https://inc42.com/buzz/byjus-acquires-online-preparation-platform-gradeup-rebrands-it-as-byjus-exam-prep/) (acquired by Byju's, valued at ~$23 Bn) and [Paytm](https://en.wikipedia.org/wiki/Paytm) (Indian Stock Exchange listed, ~$6 Bn market cap). 
+* Worked as a software engineer at [Gradeup](https://inc42.com/buzz/byjus-acquires-online-preparation-platform-gradeup-rebrands-it-as-byjus-exam-prep/) (acquired by Byju's, valued at ~$23 Bn) and [Paytm](https://en.wikipedia.org/wiki/Paytm) (Indian Stock Exchange listed, ~$6 Bn market cap). 
 
-Worked remotely as a software engineer at Inclusys and OpenCraft.
+* Worked remotely as a software engineer at Inclusys and OpenCraft.
 
-Created an android app marketplace (2.3 million unique organic visitors and 1.9 million app downloads). 
+* Created an android app marketplace (2.3 million unique organic visitors and 1.9 million app downloads). 
 
-Helped develop open source [ML competition platform](https://eval.ai/) (~42K monthly visits, 1.4K+ stars on GitHub), doubt resolution search engine featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) for people with Autism. 
+* Helped develop open source [ML competition platform](https://eval.ai/) (~42K monthly visits, 1.4K+ stars on GitHub), doubt resolution search engine featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) for people with Autism. 
 
-Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/) in collaboration with authors from Google AI, CMU.
+* Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/) in collaboration with authors from Google AI, CMU.
 
 [Professional Experience](#professional-experience) \| [Open Source Contribution](#open-source-contribution) \| [Entrepreneurial Attempt](#entrepreneurial-attempt) \| [Book Writing](#book)  \| [Hackathon](#hackathon)
 
