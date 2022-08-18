@@ -42,7 +42,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     <h3 style="text-align:left; display:inline;">
         Inclusys
     </h3>
-    <small><i>(Remote Work)<i></small>
+    <small><i>(Remote Work)</i></small>
     <span style="float:right;">
         <small>
             Nov 2018 - Oct 2019
@@ -57,7 +57,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     <h3 style="text-align:left; display:inline;">
         OpenCraft
     </h3>
-    <small><i>(Remote Work)<i></small>
+    <small><i>(Remote Work)</i></small>
     <span style="float:right;">
         <small>
             July 2018 - Oct 2018
