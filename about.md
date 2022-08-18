@@ -42,7 +42,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     <h3 style="text-align:left; display:inline;">
         Inclusys
     </h3>
-    <small><i>(Remote Work)</small></i>
+    <small><i>(Remote Work)<i></small>
     <span style="float:right;">
         <small>
             Nov 2018 - Oct 2019
@@ -57,7 +57,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     <h3 style="text-align:left; display:inline;">
         OpenCraft
     </h3>
-    <small><i>(Remote Work)</small></i>
+    <small><i>(Remote Work)<i></small>
     <span style="float:right;">
         <small>
             July 2018 - Oct 2018
@@ -202,7 +202,6 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 I love connecting with people. You can reach out to me via [email](mailto:taranjeet7114@gmail.com).
 
 <br/>
-
 <center>
 {% include social-links.html %}
 </center>
