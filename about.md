@@ -158,18 +158,13 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
 
 * <p style="margin-left:0px"><i>[2017]</i> Launched an insight-based SAAS platform for restaurants to improve the customer dining experience <br/>
-Onboarded <strong>2</strong> restaurants; sunsetted as failed to raise funds
-</p>
-
+Onboarded <strong>2</strong> restaurants; sunsetted as failed to raise funds</p>
 
 * <p style="margin-left:0px"><i>[2014 - 2015]</i> Set up an E-commerce Store for laptop stickers during the 3rd year of engg<br/>
-<strong>300</strong> orders were placed in 2 months; discontinued as it involved upfront investment
-</p>
-
+<strong>300</strong> orders were placed in 2 months; discontinued as it involved upfront investment</p>
 
 * <p style="margin-left:0px"><i>[2013]</i> Developed a Hyperlocal Discount Discovery Platform during the 2nd year of engg<br/>
-Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't continue as it involved a lot of sales intervention
-</p>
+Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't continue as it involved a lot of sales intervention</p>
 
 ## Other Contributions
 
@@ -194,7 +189,6 @@ Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't contin
 
 * <p style="margin-left:0px"><a href="https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3">Conceptualized, organized and managed</a> a hackathon at Gradeup in 2018<br/>
 Reduced the creation timeline of internal tools by <strong>~80%</strong>; was awarded by the CEO for the same</p>
-
 
 * Acted as a __mentor__ and __judge__ at Smart India Hackathon 2017, at my alma mater
 
