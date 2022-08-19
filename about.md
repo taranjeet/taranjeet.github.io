@@ -51,7 +51,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 </div>
 
 * Helped develop an [educational product](https://www.talkwithmeapp.com/) for people with autism. Callaghan Innovation (a crown entity of New Zealand) backed it
-* __Impact Created__: __\~3K__ users worldwide
+* __\~3K__ users worldwide
 
 <div>
     <h3 style="text-align:left; display:inline;">
@@ -66,7 +66,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 </div>
 
 * Developed frontend components for [LabXchange](https://www.labxchange.org/) (Harvard's science classroom)
-* __Impact Created__: LabXchange gets __\~125K__ monthly user visits worldwide
+* LabXchange gets __\~125K__ monthly user visits worldwide
 
 <div>
     <h3 style="text-align:left; display:inline;">
@@ -79,8 +79,8 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     </span>
 </div>
 
-* Built and scaled a [doubt resolution search engine](https://www.facebook.com/watch/?v=883796972040441) for K-12 students, featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html)
-* __Impact Created__: App has over __1MM+__ installs
+* Built and scaled a [doubt resolution search engine app](https://www.facebook.com/watch/?v=883796972040441) for K-12 students, featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html)
+* App has over __1MM+__ installs
 
 <div>
     <h3 style="text-align:left; display:inline;">
@@ -110,7 +110,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 * Co-developed [EvalAI](https://eval.ai/) from scratch
 * Implemented parallelised backend which reduced the submission evaluation time by 80% compared to [Microsoft Codalab](https://www.microsoft.com/en-us/research/project/codalab/) (popular amongst CMU, Stanford, Facebook, Google)
 * [Mentored](https://summerofcode.withgoogle.com/archive/2017/projects/4507838760091648) students during <strong>Google Summer of Code 2017</strong>, attended GSOC Mentor Summit 2017 held at Google US office (by invitation)
-* __Impact Created__: __\~42K__ monthly visits worldwide; __1.4K__ stars and 600+ forks on [GitHub](https://github.com/Cloud-CV/EvalAI)
+* __\~42K__ monthly visits worldwide; __1.4K__ stars and 600+ forks on [GitHub](https://github.com/Cloud-CV/EvalAI)
 
 
 <div>
@@ -123,7 +123,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 </div>
 
 * Created a [tokenisation module](https://github.com/taranjeet/hindi-tokenizer) for the Hindi language; used for NLP tasks
-* __Impact Created__: __75+__ stars and 70+ forks on GitHub; __\~400__ monthly user visits
+* __75+__ stars and 70+ forks on GitHub; __\~400__ monthly user visits
 
 <div>
     <h3 style="text-align:left; display:inline;">Notable Contribution</h3>
@@ -151,24 +151,25 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     </span>
 </div>
 
-* ___[2020 - 2021]___ Developed an android app marketplace which provides developers with an alternate distribution platform
-* __Impact Created__: <strong>2.3MM</strong> unique organic visitors and <strong>1.9MM</strong> app downloads
+* <p style="margin-left:0px"><i>[2020 - 2021]</i> Developed an android app marketplace which provides developers with an alternate distribution platform<br/>
+<strong>2.3MM</strong> unique organic visitors and <strong>1.9MM</strong> app downloads</p>
+
+* <p style="margin-left:0px"><i>[2018 - 2019]</i> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
+Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
+
+* <p style="margin-left:0px"><i>[2017]</i> Launched an insight-based SAAS platform for restaurants to improve the customer dining experience <br/>
+Onboarded <strong>2</strong> restaurants; sunsetted as failed to raise funds
+</p>
 
 
-* ___[2018 - 2019]___ Created a platform for Edtech YouTube creators to connect with the audience on their own platform
-* __Impact Created__: Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds
+* <p style="margin-left:0px"><i>[2014 - 2015]</i> Set up an E-commerce Store for laptop stickers during the 3rd year of engg<br/>
+<strong>300</strong> orders were placed in 2 months; discontinued as it involved upfront investment
+</p>
 
 
-* ___[2017]___ Launched an insight-based SAAS platform for restaurants to improve the customer dining experience
-* __Impact Created__: Onboarded __2__ restaurants; sunsetted as failed to raise funds
-
-
-* ___[2014 - 2015]___ Set up an E-commerce Store for laptop stickers during the 3rd year of engg
-* __Impact Created__: __300__ orders were placed in 2 months; discontinued as it involved upfront investment
-
-
-* ___[2013]___ Developed a Hyperlocal Discount Discovery Platform during the 2nd year of engg
-* __Impact Created__: Onboarded __40__ merchants from 5 malls of Delhi NCR; didn't continue as it involved a lot of sales intervention
+* <p style="margin-left:0px"><i>[2013]</i> Developed a Hyperlocal Discount Discovery Platform during the 2nd year of engg<br/>
+Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't continue as it involved a lot of sales intervention
+</p>
 
 ## Other Contributions
 
@@ -191,8 +192,8 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 
 ## Hackathon
 
-* [Conceptualized, organized and managed](https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3) a hackathon at Gradeup in 2018
-* __Impact Created__: reduced the creation timeline of internal tools by __~80%__; was awarded by the CEO for the same
+* <p style="margin-left:0px"><a href="https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3">Conceptualized, organized and managed</a> a hackathon at Gradeup in 2018<br/>
+Reduced the creation timeline of internal tools by <strong>~80%</strong>; was awarded by the CEO for the same</p>
 
 
 * Acted as a __mentor__ and __judge__ at Smart India Hackathon 2017, at my alma mater
