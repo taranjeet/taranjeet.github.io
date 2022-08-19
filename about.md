@@ -151,19 +151,19 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     </span>
 </div>
 
-* <p style="margin-left:0px"><i>[2020 - 2021]</i> Developed an android app marketplace which provides developers with an alternate distribution platform<br/>
+* <p style="margin-left:0px"><strong>[2020 - 2021]</strong> Developed an android app marketplace which provides developers with an alternate distribution platform<br/>
 <strong>2.3MM</strong> unique organic visitors and <strong>1.9MM</strong> app downloads</p>
 
-* <p style="margin-left:0px"><i>[2018 - 2019]</i> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
+* <p style="margin-left:0px"><strong>[2018 - 2019]</strong> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
 Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
 
-* <p style="margin-left:0px"><i>[2017]</i> Launched an insight-based SAAS platform for restaurants to improve the customer dining experience <br/>
+* <p style="margin-left:0px"><strong>[2017]</strong> Launched an insight-based SAAS platform for restaurants to improve the customer dining experience <br/>
 Onboarded <strong>2</strong> restaurants; sunsetted as failed to raise funds</p>
 
-* <p style="margin-left:0px"><i>[2014 - 2015]</i> Set up an E-commerce Store for laptop stickers during the 3rd year of engg<br/>
+* <p style="margin-left:0px"><strong>[2014 - 2015]</strong> Set up an E-commerce Store for laptop stickers during the 3rd year of engg<br/>
 <strong>300</strong> orders were placed in 2 months; discontinued as it involved upfront investment</p>
 
-* <p style="margin-left:0px"><i>[2013]</i> Developed a Hyperlocal Discount Discovery Platform during the 2nd year of engg<br/>
+* <p style="margin-left:0px"><strong>[2013]</strong> Developed a Hyperlocal Discount Discovery Platform during the 2nd year of engg<br/>
 Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't continue as it involved a lot of sales intervention</p>
 
 ## Other Contributions
