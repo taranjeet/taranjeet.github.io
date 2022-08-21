@@ -13,9 +13,9 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 
 * Worked remotely as a software engineer at Inclusys and OpenCraft
 
-* Created an android app marketplace (__3 million__ organic visitors and __1.9 million__ app downloads)
+* Created an android app marketplace (__3 million__ organic users and __1.9 million__ app downloads)
 
-* Co-developed open source [ML competition platform](https://eval.ai/) (__~42K__ monthly visits, __1.4K+__ stars on GitHub); helped develop doubt resolution app (__1M+__ installs) featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) (__\~3K__ users) for people with Autism
+* Co-developed open source [ML competition platform](https://eval.ai/) (__~42K__ monthly users, __1.4K+__ stars on GitHub); helped develop doubt resolution app (__1M+__ installs) featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) (__\~3K__ users) for people with Autism
 
 * Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/) in collaboration with authors from Google AI, CMU
 
@@ -66,7 +66,7 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 </div>
 
 * Developed frontend components for [LabXchange](https://www.labxchange.org/) (Harvard's science classroom)
-* LabXchange gets __\~125K__ monthly user visits worldwide
+* LabXchange gets __\~125K__ monthly users worldwide
 
 <div>
     <h3 style="text-align:left; display:inline;">
@@ -80,7 +80,7 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 </div>
 
 * Built and scaled a [doubt resolution app](https://www.facebook.com/watch/?v=883796972040441) for K-12 students, featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html). The app lets students point their phone's camera at a problem and get an instant answer
-* App has over __1M+__ installs
+* App has __1M+__ installs
 
 <div>
     <h3 style="text-align:left; display:inline;">
@@ -108,9 +108,9 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 </div>
 
 * Co-developed [EvalAI](https://eval.ai/) from scratch
-* Implemented parallelised backend which reduced the submission evaluation time by 80% compared to [Microsoft Codalab](https://www.microsoft.com/en-us/research/project/codalab/) (popular amongst CMU, Stanford, Facebook, Google)
-* [Mentored](https://summerofcode.withgoogle.com/archive/2017/projects/4507838760091648) students during <strong>Google Summer of Code 2017</strong>, attended GSOC Mentor Summit 2017 held at Google US office (by invitation)
-* __\~42K__ monthly visits worldwide; __1.4K__ stars and 600+ forks on [GitHub](https://github.com/Cloud-CV/EvalAI)
+* Implemented parallelised backend which reduced the submission evaluation time by 80% compared to [Microsoft Codalab](https://www.microsoft.com/en-us/research/project/codalab/)
+* [Mentored](https://summerofcode.withgoogle.com/archive/2017/projects/4507838760091648) students during <strong>Google Summer of Code 2017</strong>, attended GSOC Mentor Summit 2017 held at Google US office (invited by Google)
+* __\~42K__ monthly users worldwide; __1.4K__ stars and 600+ forks on [GitHub](https://github.com/Cloud-CV/EvalAI); popular amongst CMU, Stanford, Facebook, Google
 
 
 <div>
@@ -123,7 +123,7 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 </div>
 
 * Created a [tokenisation module](https://github.com/taranjeet/hindi-tokenizer) for the Hindi language; used for NLP tasks
-* __75+__ stars and 70+ forks on GitHub; __\~400__ monthly user visits
+* __75+__ stars and 70+ forks on GitHub; __\~400__ monthly users
 
 <div>
     <h3 style="text-align:left; display:inline;">Notable Contributions</h3>
@@ -152,7 +152,7 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 </div>
 
 * <p style="margin-left:0px"><strong>[2020 - 2021]</strong> Developed an android app marketplace which provides developers with an alternate distribution platform<br/>
-<strong>3 million</strong> organic visitors and <strong>1.9 million</strong> app downloads</p>
+<strong>3 million</strong> organic users and <strong>1.9 million</strong> app downloads</p>
 
 * <p style="margin-left:0px"><strong>[2018 - 2019]</strong> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
 Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
@@ -187,8 +187,8 @@ Onboarded <strong>40</strong> merchants from 5 malls of Delhi NCR; didn't contin
 
 ## Hackathon
 
-* <p style="margin-left:0px"><a href="https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3">Conceptualized, organized and managed</a> a hackathon at Gradeup in 2018<br/>
-Reduced the creation timeline of internal tools by <strong>~80%</strong>; was awarded by the CEO for the same</p>
+* <p style="margin-left:0px"><a href="https://medium.com/@taranjeet/experience-organizing-an-internal-hackathon-4f4a1d78e0f3">Conceptualized and organized</a> a hackathon at Gradeup in 2018<br/>
+Reduced the creation timeline of internal tools by <strong>~80%</strong>; was awarded by the CEO</p>
 
 * Acted as a __mentor__ and __judge__ at Smart India Hackathon 2017, at my alma mater
 
