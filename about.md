@@ -5,7 +5,7 @@ layout: page
 
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
-_Experience professional adroit in Product Management, Product Growth and Software Engineering_
+_Experienced professional adroit in Product Management, Product Growth and Software Engineering_
 
 * Working as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at <strong>$600M</strong>)
 
@@ -13,9 +13,9 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 
 * Worked remotely as a software engineer at Inclusys and OpenCraft
 
-* Created an android app marketplace (__3 million__ unique organic visitors and __1.9 million__ app downloads)
+* Created an android app marketplace (__3 million__ organic visitors and __1.9 million__ app downloads)
 
-* Co-developed open source [ML competition platform](https://eval.ai/) (__~42K__ monthly visits, __1.4K+__ stars on GitHub); helped develop doubt resolution search engine (__1M+__ installs) featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) (__\~3K__ users) for people with Autism
+* Co-developed open source [ML competition platform](https://eval.ai/) (__~42K__ monthly visits, __1.4K+__ stars on GitHub); helped develop doubt resolution app (__1M+__ installs) featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html) and [educational product](https://www.talkwithmeapp.com/) (__\~3K__ users) for people with Autism
 
 * Co-authored a chapter for a [book on NLP](https://www.amazon.in/Practical-Natural-Language-Processing-Comprehensive/dp/9385889184/) in collaboration with authors from Google AI, CMU
 
@@ -79,7 +79,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
     </span>
 </div>
 
-* Built and scaled a [doubt resolution search engine app](https://www.facebook.com/watch/?v=883796972040441) for K-12 students, featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html)
+* Built and scaled a [doubt resolution app](https://www.facebook.com/watch/?v=883796972040441) for K-12 students, featured at [Google I/O 2019](https://www.asianage.com/technology/in-other-news/090519/google-io-2019-featured-two-indian-companies-for-excellent-use-of-machine-learning.html). The app lets students point their phone's camera at a problem and get an instant answer
 * App has over __1M+__ installs
 
 <div>
@@ -126,7 +126,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 * __75+__ stars and 70+ forks on GitHub; __\~400__ monthly user visits
 
 <div>
-    <h3 style="text-align:left; display:inline;">Notable Contribution</h3>
+    <h3 style="text-align:left; display:inline;">Notable Contributions</h3>
     <span style="float:right;">
         <small>
             Aug 2016 - Aug 2016
@@ -152,7 +152,7 @@ _Experience professional adroit in Product Management, Product Growth and Softwa
 </div>
 
 * <p style="margin-left:0px"><strong>[2020 - 2021]</strong> Developed an android app marketplace which provides developers with an alternate distribution platform<br/>
-<strong>3 million</strong> unique organic visitors and <strong>1.9 million</strong> app downloads</p>
+<strong>3 million</strong> organic visitors and <strong>1.9 million</strong> app downloads</p>
 
 * <p style="margin-left:0px"><strong>[2018 - 2019]</strong> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
 Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
