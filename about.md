@@ -155,7 +155,7 @@ _Experienced professional adroit in Product Management, Product Growth and Softw
 <strong>3 million</strong> organic users and <strong>1.9 million</strong> app downloads</p>
 
 * <p style="margin-left:0px"><strong>[2018 - 2019]</strong> Created a platform for Edtech YouTube creators to connect with the audience on their own platform<br/>
-Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as failed to raise funds</p>
+Onboarded a YouTuber with <strong>150K</strong> subscribers; sunsetted as couldn't figure out the right GTM strategy</p>
 
 * <p style="margin-left:0px"><strong>[2017]</strong> Launched an insight-based SAAS platform for restaurants to improve the customer dining experience <br/>
 Onboarded <strong>2</strong> restaurants; sunsetted as failed to raise funds</p>
