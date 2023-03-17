@@ -5,7 +5,7 @@ layout: page
 
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
-_Experienced professional adroit in Product Management, Product Growth and Software Engineering_
+* Currently building [cookup.ai](https://cookup.ai) - an AI app platform where anyone can create, distribute and monetize AI app.
 
 * Worked as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at <strong>$600M</strong>)
 
