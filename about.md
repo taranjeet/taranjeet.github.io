@@ -5,7 +5,9 @@ layout: page
 
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
-* Currently building [cookup.ai](https://cookup.ai) - an AI app platform where anyone can create, distribute and monetize AI app.
+* Currently building [embedstore.ai](https://embedstore.ai) - Developer tools to add OpenAI intelligence on constantly updating datasets
+* Writing [keepingupwith.ai](https://keepingupwith.ai) - AI newsletter which covers coding & growth related insights from popular AI projects. 1000+ subscribers across Substack, LinkedIn, WhatsApp.
+* Built [cookup.ai](https://cookup.ai) - AI App Store; 400K+ users monthly with zero marketing spend (via SEO)
 
 * Worked as a Senior Product Manager at [Khatabook](https://techcrunch.com/2021/08/23/indias-khatabook-raises-100-million-for-its-bookkeeping-platform-for-merchants/) (YC & Sequoia backed, valued at <strong>$600M</strong>)
 
