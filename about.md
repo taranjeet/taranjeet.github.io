@@ -32,7 +32,7 @@ layout: page
     </h3>
     <span style="float:right;">
         <small>
-            Oct 2019 - Present
+            Oct 2019 - Oct 2022
         </small>
     </span>
 </div>
