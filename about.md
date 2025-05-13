@@ -5,7 +5,7 @@ layout: page
 
 <div align="center"><h1>Hello, I am Taranjeet 👋</h1></div>
 
-* Currently building [embedchain.ai](https://embedchain.ai)
+* Currently building [mem0.ai](https://mem0.ai)
 * Writing [keepingupwith.ai](https://keepingupwith.ai) - AI newsletter which covers coding & growth related insights from popular AI projects. 1000+ subscribers across Substack, LinkedIn, WhatsApp.
 * Built [cookup.ai](https://cookup.ai) - AI App Store; 400K+ users monthly with zero marketing spend (via SEO)
 
